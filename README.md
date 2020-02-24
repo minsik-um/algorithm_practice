@@ -3,7 +3,7 @@
 연습 언어: Python3 (조만간 Java, R, Scala 연습 시작 예정)
 
 ## Programmers
-![Alt text](/imgs/icon_programmers.png)
+<img src="/imgs/icon_programmers.png" width="200px" alt="icon programmers"></img><br/>
 https://programmers.co.kr/
 
 ### 해시
