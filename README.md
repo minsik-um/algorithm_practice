@@ -8,4 +8,9 @@ https://programmers.co.kr/
 
 ### 해시
 
-* [완주하지 못한 선수 / Level 1](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/hash/%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%20%EB%AA%BB%ED%95%9C%20%EC%84%A0%EC%88%98.py)
+
+* 완주하지 못한 선수 
+
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42576?language=python3)
+
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/hash/%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%20%EB%AA%BB%ED%95%9C%20%EC%84%A0%EC%88%98.py)
