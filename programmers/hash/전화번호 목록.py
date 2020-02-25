@@ -20,12 +20,15 @@ def solution(phone_book):
 
     hash를 사용하기에 굳이 sort하지 않아도 되기에 효율적
     위 풀이보다 조금 더 빠르게 풀렸음
+
+    이중 for문처럼 보이지만 위의 방법과 다르다.
+    안의 for문은 최대 20(글자수 최대)으로 한정된 상수로 계산
     '''
     hash_map = {phone_number: 1 for phone_number in phone_book}
 
     for phone_number in phone_book:
-        pre_nums = [phone_number[:i] for i in range(len(phone_number))]
-        for pre_num in pre_nums:
+        for i in range(len(phone_number)):
+            pre_num = phone_number[:i]
             if pre_num in hash_map and pre_num != phone_number:
                 return False
 
