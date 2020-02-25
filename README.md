@@ -11,4 +11,9 @@ https://programmers.co.kr/
 * Level 1 / 완주하지 못한 선수 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42576?language=python3)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/hash/%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%20%EB%AA%BB%ED%95%9C%20%EC%84%A0%EC%88%98.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/hash/완주하지%20못한%20선수.py)
+
+* Level 2 / 전화번호 목록 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42577)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/hash/전화번호%20목록.py)
