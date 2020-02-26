@@ -2,6 +2,12 @@
 
 연습 언어: Python3 (조만간 Java, R, Scala 연습 시작 예정)
 
+Commit Message 예시
+
+* 추가: 프로그래머스 / 해시 / 전화번호 목록(py, README)
+
+* 수정: 프로그래머스 / 해시 / 위장(py)
+
 ## Programmers
 <img src="/imgs/icon_programmers.png" width="200px" alt="icon programmers"></img><br/>
 https://programmers.co.kr/
