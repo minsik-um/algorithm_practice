@@ -13,6 +13,7 @@ Commit Message 예시
 https://programmers.co.kr/
 
 ### 해시
+Key: Value 형태의 Set. Key는 Unique 하며 str이 가능. str 혹은 int으로 특정 값을 찾을 때 O(1)로 빠르게 탐색 가능하다. 만약 리스트를 이용하면 매번 목표 Key와 현재 Key를 대조하며 찾아야 함.
 
 * Level 1 / 완주하지 못한 선수 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42576?language=python3)
@@ -28,4 +29,9 @@ https://programmers.co.kr/
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42578)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/hash/위장.py)
+
+* Level 3 / 베스트앨범 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42579)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/hash/베스트앨범.py)
 
