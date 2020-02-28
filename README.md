@@ -5,7 +5,6 @@
 #### Commit Message 예시
 
 * 추가: 프로그래머스 / 해시 / 전화번호 목록(py, README)
-
 * 수정: 프로그래머스 / 해시 / 위장(py)
 
 ## Programmers
@@ -36,7 +35,7 @@ Key: Value 형태의 Set. Key는 Unique 하며 str이 가능. str 혹은 int으�
 
 ### 스택/큐(Stack/Queue)
 https://mygumi.tistory.com/357 <br>
-양쪽으로 접근하는 리스트와 달리 확실히 입구/출구를 정한 형태다. 예컨대 스택은 컴퓨터 코드 실행 구조가 있고 큐는 상태 확인이 있다. 
+양쪽으로 접근하는 리스트와 달리 확실히 입구/출구를 정한 형태다. 예컨대 스택은 컴퓨터 코드 실행 구조가 있고 큐는 네트워크 상태 확인이 있다.(링크 확인) 
 
 Stack: LIFO(Last Input First Output)<br>
 push / pop
