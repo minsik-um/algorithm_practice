@@ -34,8 +34,11 @@ Key: Value 형태의 Set. Key는 Unique 하며 str이 가능. str 혹은 int으�
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/hash/베스트앨범.py)
 
 ### 스택/큐(Stack/Queue)
-https://mygumi.tistory.com/357 <br>
-양쪽으로 접근하는 리스트와 달리 확실히 입구/출구를 정한 형태다. 예컨대 스택은 컴퓨터 코드 실행 구조가 있고 큐는 네트워크 상태 확인이 있다.(링크 확인) 
+양쪽으로 접근하는 리스트와 달리 확실히 입구/출구를 정하여 **수행할 데이터의 순서를 명확하게 지정려고** 쓴다. 이때 모든 접근 속도가 O(1)이 되도록 해준다. 예컨대 스택은 컴퓨터 코드 실행 구조가 있고 큐는 네트워크 상태 확인이 있다. Python List는 Stack 접근 속도가 빠르지만 Queue의 insert 속도가 느려(ArrayList) 다른 객체를 제공하고 있다.<br>
+[Python Stack/Queue Example](https://docs.python.org/3/tutorial/datastructures.html?highlight=list#using-lists-as-queues)
+/
+[스택/큐 개념](https://mygumi.tistory.com/357)
+
 
 Stack: LIFO(Last Input First Output)<br>
 push / pop
@@ -47,3 +50,8 @@ Insert(push) / Delete(shift)
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42588)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/stack_queue/탑.py)
+
+* Level 2 / 다리를 지나는 트럭 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42583)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/stack_queue/다리를%20지나는%20트럭.py)
