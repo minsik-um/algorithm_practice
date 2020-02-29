@@ -1,5 +1,6 @@
 from collections import deque
 
+
 def solution(bridge_length, weight, truck_weights):
     '''
     내 코드
@@ -11,7 +12,7 @@ def solution(bridge_length, weight, truck_weights):
     on_bridge = deque([0] * bridge_length)
     tick = 0
     sum_on_bridge = 0
-    
+
     while t_w:
         sum_on_bridge -= on_bridge.popleft()
         if sum_on_bridge + t_w[0] <= weight:
@@ -20,8 +21,9 @@ def solution(bridge_length, weight, truck_weights):
         else:
             on_bridge.append(0)    
         tick += 1
-    
+
     return tick + bridge_length
+
 
 '''
 추천 최다 코드
@@ -29,7 +31,9 @@ class를 쓰고 if문 검사를 넣어 안전한 코드를 만들었음.
 대신에 속도가 감소.
 test 5 기준 약 240ms(class 미사용 위 코드는 50ms)
 
-2가지 요소가 실행 시간을 늘렸다.
+2가지 요소가 실행 시간을 늘렸다. class로 여러 obj를 만들지 않는 이상
+class를 쓸 이유는 없다.
+
 1. self.- 속성이나 메소드 호출 시 시간이 증가. 
 클래스 선언 자체는 시간에 큰 영향이 없다. 대신 속성을 불러오고
 메소드로 속성을 수정하는 과정(속성 아니고 메소드 호출만 해도)
@@ -42,8 +46,10 @@ test 5 기준 약 240ms(class 미사용 위 코드는 50ms)
   매번 queue에서 1개씩 빼기 때문이다.
 
 그외 여러 요소는 시간에 큰 영향을 주지 않는다.
-
 '''
+DUMMY_TRUCK = 0
+
+
 class Bridge(object):
 
     DUMMY_TRUCK = 0
