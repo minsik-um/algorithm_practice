@@ -4,7 +4,7 @@
 
 #### Commit Message 예시
 
-* 추가: 프로그래머스 / 해시 / 전화번호 목록(py, README)
+* 추가: 프로그래머스 / 스택_큐 / 기능개발(py, README)
 * 수정: 프로그래머스 / 해시 / 위장(py)
 
 ## Programmers
@@ -55,3 +55,8 @@ Insert(push) / Delete(shift)
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42583)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/stack_queue/다리를%20지나는%20트럭.py)
+
+* Level 2 / 기능개발 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42586)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/stack_queue/기능개발.py)
