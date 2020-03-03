@@ -7,6 +7,7 @@ def my_solution(arrangement):
     ()를 만나면 한 칸 더 넘어가며 3가지 정보를 검사하도록 함
 
     때문에 코드가 복잡해졌다. 아래 best solution이 훨씬 괜찮다.
+    deque 쓰기보다 그냥 indexing 쓰면 더 간단해보인다.
     '''
     answer = 1
     on_laser = 0
