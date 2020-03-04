@@ -4,14 +4,16 @@
 
 #### Commit Message 예시
 
-* 추가: 프로그래머스 / 스택_큐 / 쇠막대기(py, README)
+* 추가: 프로그래머스 / 스택_큐 / 주식개발(py, README)
 * 수정: 프로그래머스 / 스택_큐 / 쇠막대기(py)
 
 ## Programmers
 <img src="/imgs/icon_programmers.png" width="200px" alt="icon programmers"></img><br>https://programmers.co.kr/
 
-### 해시(Hash)
-Key: Value 형태의 Set. Key는 Unique 하며 str이 가능. str 혹은 int으로 특정 값을 찾을 때 O(1)로 빠르게 탐색 가능하다. 만약 리스트를 이용하면 매번 목표 Key와 현재 Key를 대조하며 찾아야 함.
+---
+## 해시(Hash)
+Key: Value 형태의 Set.
+Key는 Unique 하며 str이 가능. str 혹은 int으로 특정 값을 찾을 때 O(1)로 빠르게 탐색 가능한 점과 (str, tuple, ...)여러 타입의 Key로 value를 불러올 수 있는 점을 활용하자.
 
 * Level 1 / 완주하지 못한 선수 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42576?language=python3)
@@ -33,12 +35,14 @@ Key: Value 형태의 Set. Key는 Unique 하며 str이 가능. str 혹은 int으�
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/hash/베스트앨범.py)
 
-### 스택/큐(Stack/Queue)
-양쪽으로 접근하는 리스트와 달리 확실히 입구/출구를 정하여 **수행할 데이터의 순서를 명확하게 지정**하려고 쓴다. 이때 모든 접근 속도가 O(1)이 되도록 해준다. 예컨대 스택은 컴퓨터 코드 실행 구조가 있고 큐는 네트워크 상태 확인이 있다. Python List는 Stack 접근 속도가 빠르지만 Queue의 insert 속도가 느려(ArrayList) 다른 객체를 제공하고 있다. 굳이 deque 쓸 필요 없이 indexing 하면 O(1) 이다.<br>
+---
+
+## 스택/큐(Stack/Queue)
+양쪽으로 접근하는 리스트와 달리 입구/출구를 정하여 수행할 데이터의 순서를 명확하게 지정한다. 불필요한 계산 과정을 줄일 수 있는 구조를 선택하는 게 중요하다. 
+예컨대 탑, 주식가격 문제에서 Stack + (break나 while)을 활용하여 실행 시간을 줄였다. <br>
 [Python Stack/Queue Example](https://docs.python.org/3/tutorial/datastructures.html?highlight=list#using-lists-as-queues)
 /
-[스택/큐 개념](https://mygumi.tistory.com/357)
-
+[스택_큐 개념](https://mygumi.tistory.com/357)
 
 Stack: LIFO(Last Input First Output)<br>
 push / pop
@@ -70,3 +74,11 @@ Insert(push) / Delete(shift)
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42585)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/stack_queue/쇠막대기.py)
+
+* Level 2 / 주식개발 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42584)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/stack_queue/주식개발.py)
+
+---
+
