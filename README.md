@@ -35,8 +35,7 @@ Key는 Unique 하며 str이 가능. str 혹은 int으로 특정 값을 찾을 �
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/hash/베스트앨범.py)
 
 ## 스택/큐(Stack/Queue)
-양쪽으로 접근하는 리스트와 달리 입구/출구를 정하여 수행할 데이터의 순서를 명확하게 지정한다. 불필요한 계산 과정을 줄일 수 있는 구조를 선택하는 게 중요하다. 
-예컨대 탑, 주식가격 문제에서 Stack + (break나 while)을 활용하여 실행 시간을 줄였다. <br>
+양쪽으로 접근하는 리스트와 달리 입구/출구를 정하여 수행할 데이터의 순서를 명확하게 지정한다. 불필요한 계산 과정을 줄이는 구조 선택이 중요하다. 예컨대 탑, 주식가격 문제에서 Stack+(break나 while)을 활용하여 실행 시간을 줄였다.<br>
 [Python Stack/Queue Example](https://docs.python.org/3/tutorial/datastructures.html?highlight=list#using-lists-as-queues)
 /
 [스택_큐 개념](https://mygumi.tistory.com/357)
