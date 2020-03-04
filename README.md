@@ -10,7 +10,6 @@
 ## Programmers
 <img src="/imgs/icon_programmers.png" width="200px" alt="icon programmers"></img><br>https://programmers.co.kr/
 
----
 ## 해시(Hash)
 Key: Value 형태의 Set.
 Key는 Unique 하며 str이 가능. str 혹은 int으로 특정 값을 찾을 때 O(1)로 빠르게 탐색 가능한 점과 (str, tuple, ...)여러 타입의 Key로 value를 불러올 수 있는 점을 활용하자.
@@ -34,8 +33,6 @@ Key는 Unique 하며 str이 가능. str 혹은 int으로 특정 값을 찾을 �
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42579)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/hash/베스트앨범.py)
-
----
 
 ## 스택/큐(Stack/Queue)
 양쪽으로 접근하는 리스트와 달리 입구/출구를 정하여 수행할 데이터의 순서를 명확하게 지정한다. 불필요한 계산 과정을 줄일 수 있는 구조를 선택하는 게 중요하다. 
@@ -80,5 +77,4 @@ Insert(push) / Delete(shift)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/stack_queue/주식개발.py)
 
----
 
