@@ -13,6 +13,7 @@ def my_solution(stock, dates, supplies, k):
     (python은 최소 힙을 제공하므로 -를 곱하여 최대 힙 활용)
 
     속도를 위해 if문을 최소한으로 쓰고, zip 등의 함수도 조심
+    모든 날을 검사하지 않고 바닥난 날만 검사하여 속도 향상
     '''
     current_stock = stock
     last_index = 0

@@ -5,7 +5,7 @@
 #### Commit Message 예시
 
 - 추가: 프로그래머스 / 힙 / 라면공장(py, README)
-- 수정: 프로그래머스 / 스택_큐 / 쇠막대기(py)
+- 수정: 프로그래머스 / 힙 / 라면공장(py)
 
 ## Programmers
 <img src="/imgs/icon_programmers.png" width="200px" alt="icon programmers"></img><br>https://programmers.co.kr/
