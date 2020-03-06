@@ -4,7 +4,7 @@
 
 #### Commit Message 예시
 
-- 추가: 프로그래머스 / 힙 / 더 맵게(py, README)
+- 추가: 프로그래머스 / 힙 / 라면공장(py, README)
 - 수정: 프로그래머스 / 스택_큐 / 쇠막대기(py)
 
 ## Programmers
@@ -90,4 +90,11 @@ Heap Property를 만족하는 Complete Binary Tree. 최댓값/최솟값을 빠�
 - Level 2 / 더 맵게 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42626)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/stack_queue/더%20맵게.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/heap/더%20맵게.py)
+
+- Level 2 / 라면공장 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42629)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/heap/라면공장.py)
+
+
