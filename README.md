@@ -4,7 +4,7 @@
 
 #### Commit Message 예시
 
-- 추가: 프로그래머스 / 힙 / 라면공장(py, README)
+- 추가: 프로그래머스 / 힙 / 디스크 콘트롤러(py, README)
 - 수정: 프로그래머스 / 힙 / 라면공장(py)
 
 ## Programmers
@@ -78,7 +78,7 @@ Insert(push) / Delete(shift)
 
 ## 힙(Heap)
 <img src="/imgs/heap_example.png" width="330px" alt="heap example"></img><br>
-Heap Property를 만족하는 Complete Binary Tree. 최댓값/최솟값을 빠르게 찾기 위함. root node로 올수록 클 경우 최대힙, 작으면 최소힙이다. heap property는 다음과 같다.
+Heap Property를 만족하는 Complete Binary Tree. **유동적인 리스트에서 최댓값/최솟값을 빠르게 찾기 위함.** root node로 올수록 클 경우 최대힙, 작으면 최소힙이다. heap property는 다음과 같다.
 >A가 B의 부모노드(parent node) 이면, A의 키(key)값과 B의 키값 사이에는 대소관계가 성립한다.
 
 출처
@@ -97,4 +97,7 @@ Heap Property를 만족하는 Complete Binary Tree. 최댓값/최솟값을 빠�
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/heap/라면공장.py)
 
-
+- Level 3 / 디스크 콘트롤러 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42627)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/heap/디스크%20콘트롤러.py)
