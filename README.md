@@ -11,9 +11,11 @@
 <img src="/imgs/icon_programmers.png" width="200px" alt="icon programmers"></img><br>https://programmers.co.kr/
 
 ## 해시(Hash)
-Key: Value 형태의 Set.
-Key는 Unique 하며 str이 가능. str 혹은 int으로 특정 값을 찾을 때 O(1)로 빠르게 탐색 가능한 점과 (str, tuple, ...)여러 타입의 Key로 value를 불러올 수 있는 점을 활용하자.
+>Key: Value 형태의 Set.
+- Key는 Unique 하며 str이 가능. str 혹은 int으로 특정 값을 찾을 때 O(1)로 빠르게 탐색 가능
+- (str, tuple, ...)여러 타입의 Key로 value를 불러올 수 있음
 
+문제 풀이
 - Level 1 / 완주하지 못한 선수 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42576?language=python3)
 /
@@ -35,17 +37,19 @@ Key는 Unique 하며 str이 가능. str 혹은 int으로 특정 값을 찾을 �
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/hash/베스트앨범.py)
 
 ## 스택/큐(Stack/Queue)
-양쪽으로 접근하는 리스트와 달리 입구/출구를 정하여 수행할 데이터의 순서를 명확하게 지정한다. 불필요한 계산 과정을 줄이는 구조 선택이 중요하다. 예컨대 탑, 주식가격 문제에서 Stack+(break나 while)을 활용하여 실행 시간을 줄였다.<br>
-[Python Stack/Queue Example](https://docs.python.org/3/tutorial/datastructures.html?highlight=list#using-lists-as-queues)
-/
-[스택_큐 개념](https://mygumi.tistory.com/357)
+>Stack: LIFO(Last Input First Output)<br>
+Queue: FIFO(first Input First Output)
 
-Stack: LIFO(Last Input First Output)<br>
-push / pop
+- 리스트(ordered)의 입구/출구를 정하여 수행할 데이터의 순서를 명확하게 지정하여 불필요한 계산 과정을 줄일 수 있다. 예컨대 함수 실행 처리를 Stack 대신 Queue를 이용한다면, 매번 각 함수 처리 전 하위 함수 처리가 완료되었는지 따져야 한다. 
+- 대개 Insert(push) / Delete(pop, shift)를 사용한다.
+- 메모리와 스케줄링 등의 예시가 있으며, DFS, BFS 등 그래프 자료형의 기본 개념이 된다.
+- Deque는 stack과 queue를 합친 형태다. Python에서는 deque 라이브러리를 제공한다.
 
-Queue: FIFO(first Input First Output)<br>
-Insert(push) / Delete(shift)
+참고
+- [Python Stack/Queue Example](https://docs.python.org/3/tutorial/datastructures.html?highlight=list#using-lists-as-queues)
+- [스택_큐 개념](https://mygumi.tistory.com/357)
 
+문제풀이
 - Level 2 / 탑 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42588)
 /
@@ -77,16 +81,18 @@ Insert(push) / Delete(shift)
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/stack_queue/주식개발.py)
 
 ## 힙(Heap)
-<img src="/imgs/heap_example.png" width="330px" alt="heap example"></img><br>
-Heap Property를 만족하는 Complete Binary Tree. **유동적인 리스트에서 최댓값/최솟값을 빠르게 찾기 위함.** root node로 올수록 클 경우 최대힙, 작으면 최소힙이다. heap property는 다음과 같다.
->A가 B의 부모노드(parent node) 이면, A의 키(key)값과 B의 키값 사이에는 대소관계가 성립한다.
+<img src="/imgs/heap_example.png" width="330px" alt="heap example"></img>
+>A가 B의 부모노드(parent node) 이면, A의 키(key)값과 B의 키값 사이에는 대소관계가 성립하는 완전이진트리
+- Heap Property를 만족하는 Complete Binary Tree. **유동적인 리스트에서 최댓값/최솟값을 빠르게 찾기 위함.** root node로 올수록 클 경우 max-heap, 작으면 min-heap이다.
+- 두 개를 합쳐 최대/최소값 접근을 O(1)로 하는 min-max heap도 있다. 아종으로 symmetric min-max heap이 있다. 간단한 문제라면 - 이중우선순위큐 문제 참고 - heap 2개를 이용하여 유사 min-max heap을 만들 수 있다.
+- 우선순위 큐(Priority Queue)를 실질적으로 구현
+https://hannom.tistory.com/36
 
 출처
 - https://ko.wikipedia.org/wiki/힙_(자료_구조)
 - https://docs.python.org/3.7/library/heapq.html
 
-힙을 활용하여 우선순위 큐를 구현할 수 있다.
-
+문제 풀이
 - Level 2 / 더 맵게 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42626)
 /
