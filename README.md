@@ -4,7 +4,7 @@
 
 #### Commit Message 예시
 
-- 추가: 프로그래머스 / 힙 / 디스크 콘트롤러(py, README)
+- 추가: 프로그래머스 / 정렬 / xxx(py, README)
 - 수정: 프로그래머스 / 힙 / 라면공장(py)
 
 ## Programmers
@@ -101,3 +101,14 @@ Heap Property를 만족하는 Complete Binary Tree. **유동적인 리스트에�
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42627)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/heap/디스크%20콘트롤러.py)
+
+- Level 3 / 이중우선순위큐 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42628)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/heap/이중우선순위큐.py)
+
+## 정렬(sort)
+내용
+
+참고
+- https://en.wikipedia.org/wiki/Sorting_algorithm
