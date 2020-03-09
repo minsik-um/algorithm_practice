@@ -1,16 +1,11 @@
 # 알고리즘 연습 + 언어 숙련
 
-## Commit Message 예시
-
-- 추가: 프로그래머스 / 정렬 / xxx(py, README)
-- 수정: 프로그래머스 / 힙 / 라면공장(py)
-
 ## Programmers
 <img src="/imgs/icon_programmers.png" width="200px" alt="icon programmers"></img>
 
 - Python3
 - [사이트 링크](https://programmers.co.kr/)
-- [실습 정리](https://github.com/minsik-um/algorithm_practice/tree/master/programmers)
+- [실습 정리](https://github.com/minsik-um/algorithm_practice/tree/master/programmers) (알고리즘-자료구조 관련 설명 포함)
 
 ## BaekJoon
 <img src="/imgs/icon_baekjoon.png" width="262px" alt="icon baekjoon"></img>
