@@ -2,10 +2,14 @@
 
 <img src="/imgs/icon_programmers.png" width="200px" alt="icon programmers"></img>
 <br>
-https://programmers.co.kr/
+출처: 프로그래머스 코딩 테스트 연습,
+<br>
+https://programmers.co.kr/learn/challenges
 
 - Python3
 - 하루 1문제씩(lv1 문제는 풀지만 할당량에서 제외)
+- 코딩 테스트 연습에 공개된 문제가 아닌, 기업 입사 코딩 테스트 등에 나온 문제는 법적 문제상 올리면 안된다. [출처](https://programmers.zendesk.com/hc/ko/articles/360034546572-프로그래머스의-알고리즘-문제-풀이를-개인-블로그-깃헙-기타-사이트에-올려도-되나요-)
+
 
 ## 해시(Hash)
 >Key: Value 형태의 Set
@@ -32,6 +36,7 @@ https://programmers.co.kr/
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42579)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/hash/베스트앨범.py)
+
 
 ## 스택/큐(Stack/Queue)
 >Stack: LIFO(Last Input First Output)<br>
@@ -77,6 +82,7 @@ Queue: FIFO(first Input First Output)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/stack_queue/주식개발.py)
 
+
 ## 힙(Heap)
 <img src="/imgs/heap_example.png" width="330px" alt="heap example"></img>
 >A가 B의 부모노드(parent node) 이면, A의 키(key)값과 B의 키값 사이에는 대소관계가 성립하는 완전이진트리
@@ -110,7 +116,8 @@ https://hannom.tistory.com/36
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/heap/이중우선순위큐.py)
 
-## 정렬(sort)
+
+## 정렬(Sort)
 - 컴퓨터 처리 데이터는 양이 매우 많아 search 할 때 많은 시간이 소요된다.
 - 정렬을 해두면 이진 탐색(logn) 등 빠른 탐색이 가능하다.
 - 다양한 정렬 방법이 있으며 Comparison Sort는 O(nlogn)이 최대 속도다.
@@ -131,3 +138,20 @@ https://hannom.tistory.com/36
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42746)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/sort/가장%20큰%20수.py)
+
+- Level 2 / H-Index / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42747)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/sort/h-index.py)
+
+
+## 완전탐색(Brute-force Search)
+- 내용 1
+- 내용 2
+
+참고
+- 링크 1
+- 링크 2
+
+문제 풀이
+- 문제 1
