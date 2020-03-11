@@ -9,6 +9,7 @@ https://programmers.co.kr/learn/challenges
 - Python3
 - 하루 1문제씩(lv1 문제는 풀지만 할당량에서 제외)
 - 코딩 테스트 연습에 공개된 문제가 아닌, 기업 입사 코딩 테스트 등에 나온 문제는 법적 문제상 올리면 안된다. [출처](https://programmers.zendesk.com/hc/ko/articles/360034546572-프로그래머스의-알고리즘-문제-풀이를-개인-블로그-깃헙-기타-사이트에-올려도-되나요-)
+- itertools, operator 라이브러리를 활용하여 Pythonic code를 만들 수 있다.<br>https://hamait.tistory.com/803
 
 
 ## 해시(Hash)
@@ -146,12 +147,26 @@ https://hannom.tistory.com/36
 
 
 ## 완전탐색(Brute-force Search)
-- 내용 1
-- 내용 2
+- 정답을 보장하지만 시간 복잡도는 포기한 최후의 방법 (거의 O(n**2) 이상)
+- 사용 조건
+    - 문제 데이터 크기가 제한되었거나
+    - 'Heuristic'으로 탐색할 목록 범위를 처리 가능한 크기까지 줄인다면
+- itertools에 permutations 등을 최대한 활용하자
+- 목표에 특정 패턴이 없어 효율적인 방법을 찾을 수 없다면 완전탐색을 하자...
+<br>예. '소수찾기' 문제: 수를 조합하기 전에 어떤 패턴으로 소수를 만들 수 있는지 알 수 없음. 일일이 다 만들어보며 소수인지 검사해야 함.
+
 
 참고
-- 링크 1
-- 링크 2
+- https://en.wikipedia.org/wiki/Brute-force_search
+- https://en.wikipedia.org/wiki/Heuristic_(computer_science)
 
 문제 풀이
-- 문제 1
+- Level 1 / 모의고사 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42840)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/brute_force_search/모의고사.py)
+
+- Level 2 / 소수 찾기 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42839)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/brute_force_search/소수%20찾기.py)
