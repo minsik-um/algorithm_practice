@@ -170,3 +170,8 @@ https://hannom.tistory.com/36
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42839)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/brute_force_search/소수%20찾기.py)
+
+- Level 2 / 숫자 야구 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42841)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/brute_force_search/숫자%20야구.py)
