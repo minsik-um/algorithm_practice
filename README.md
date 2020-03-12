@@ -5,13 +5,13 @@
 <br>
 https://programmers.co.kr/
 
-1. 알고리즘 & 자료구조
-    - Python3
-    - [이론 + 실습 정리](https://github.com/minsik-um/algorithm_practice/tree/master/programmers/algorithm_data_structure)
+### 알고리즘 & 자료구조
+- Python3
+- [이론 + 실습 정리](https://github.com/minsik-um/algorithm_practice/tree/master/programmers/algorithm_data_structure)
 
-2. SQL
-    - mySQL
-    - [실습 정리](https://github.com/minsik-um/algorithm_practice/tree/master/programmers/sql)
+### SQL
+- mySQL
+- [실습 정리](https://github.com/minsik-um/algorithm_practice/tree/master/programmers/sql)
 
 ## BaekJoon
 <img src="/imgs/icon_baekjoon.png" width="262px" alt="icon baekjoon"></img>
