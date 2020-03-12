@@ -21,22 +21,22 @@ https://programmers.co.kr/learn/challenges
 - Level 1 / 완주하지 못한 선수 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42576?language=python3)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/hash/완주하지%20못한%20선수.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/hash/완주하지%20못한%20선수.py)
 
 - Level 2 / 전화번호 목록 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42577)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/hash/전화번호%20목록.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/hash/전화번호%20목록.py)
 
 - Level 2 / 위장 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42578)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/hash/위장.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/hash/위장.py)
 
 - Level 3 / 베스트앨범 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42579)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/hash/베스트앨범.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/hash/베스트앨범.py)
 
 
 ## 스택/큐(Stack/Queue)
@@ -56,32 +56,32 @@ Queue: FIFO(first Input First Output)
 - Level 2 / 탑 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42588)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/stack_queue/탑.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/stack_queue/탑.py)
 
 - Level 2 / 다리를 지나는 트럭 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42583)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/stack_queue/다리를%20지나는%20트럭.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/stack_queue/다리를%20지나는%20트럭.py)
 
 - Level 2 / 기능개발 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42586)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/stack_queue/기능개발.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/stack_queue/기능개발.py)
 
 - Level 2 / 프린터 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42587)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/stack_queue/프린터.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/stack_queue/프린터.py)
 
 - Level 2 / 쇠막대기 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42585)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/stack_queue/쇠막대기.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/stack_queue/쇠막대기.py)
 
 - Level 2 / 주식개발 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42584)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/stack_queue/주식개발.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/stack_queue/주식개발.py)
 
 
 ## 힙(Heap)
@@ -100,22 +100,22 @@ https://hannom.tistory.com/36
 - Level 2 / 더 맵게 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42626)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/heap/더%20맵게.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/heap/더%20맵게.py)
 
 - Level 2 / 라면공장 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42629)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/heap/라면공장.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/heap/라면공장.py)
 
 - Level 3 / 디스크 콘트롤러 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42627)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/heap/디스크%20콘트롤러.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/heap/디스크%20콘트롤러.py)
 
 - Level 3 / 이중우선순위큐 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42628)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/heap/이중우선순위큐.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/heap/이중우선순위큐.py)
 
 
 ## 정렬(Sort)
@@ -133,17 +133,17 @@ https://hannom.tistory.com/36
 - Level 1 / K번째수 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42748)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/sort/k번째수.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/sort/k번째수.py)
 
 - Level 2 / 가장 큰 수 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42746)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/sort/가장%20큰%20수.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/sort/가장%20큰%20수.py)
 
 - Level 2 / H-Index / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42747)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/sort/h-index.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/sort/h-index.py)
 
 
 ## 완전탐색(Brute-force Search)
@@ -164,14 +164,14 @@ https://hannom.tistory.com/36
 - Level 1 / 모의고사 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42840)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/brute_force_search/모의고사.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/brute_force_search/모의고사.py)
 
 - Level 2 / 소수 찾기 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42839)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/brute_force_search/소수%20찾기.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/brute_force_search/소수%20찾기.py)
 
 - Level 2 / 숫자 야구 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42841)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/brute_force_search/숫자%20야구.py)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/brute_force_search/숫자%20야구.py)
