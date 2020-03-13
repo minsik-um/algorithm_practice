@@ -175,3 +175,8 @@ https://hannom.tistory.com/36
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42841)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/brute_force_search/숫자%20야구.py)
+
+- Level 2 / 카펫 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42842?language=python3)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/brute_force_search/카펫.py)
