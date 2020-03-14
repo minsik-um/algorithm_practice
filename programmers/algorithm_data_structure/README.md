@@ -155,7 +155,6 @@ https://hannom.tistory.com/36
 - 목표에 특정 패턴이 없어 효율적인 방법을 찾을 수 없다면 완전탐색을 하자...
 <br>예. '소수찾기' 문제: 수를 조합하기 전에 어떤 패턴으로 소수를 만들 수 있는지 알 수 없음. 일일이 다 만들어보며 소수인지 검사해야 함.
 
-
 참고
 - https://en.wikipedia.org/wiki/Brute-force_search
 - https://en.wikipedia.org/wiki/Heuristic_(computer_science)
@@ -180,3 +179,23 @@ https://hannom.tistory.com/36
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42842?language=python3)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/brute_force_search/카펫.py)
+
+
+## 탐욕법(Greedy Algorithm)
+- global optimal choice를 찾기 위해 매번 local optimal choice를 고르는 Heuristic 알고리즘.
+- global optimal choice를 항상 보장하지 않는 대신 근사치에 접근한다.
+- 완전 탐색하기엔 시간이 부족할 때 사용할 수 있다.
+
+참고
+- https://en.wikipedia.org/wiki/Greedy_algorithm
+
+문제 풀이
+- Level 1 / 체육복 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42862)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/greedy/체육복.py)
+
+- Level 2 / 조이스틱 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42860)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/greedy/조이스틱.py)
