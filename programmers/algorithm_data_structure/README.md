@@ -199,3 +199,14 @@ https://hannom.tistory.com/36
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42860)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/greedy/조이스틱.py)
+
+- Level 2 / 큰 수 만들기 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42883)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/greedy/큰%20수%20만들기.py)
+
+- Level 2 / 구명보트 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42885)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/greedy/구명보트.py)
+
