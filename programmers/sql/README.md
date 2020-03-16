@@ -19,6 +19,6 @@ https://programmers.co.kr/learn/challenges
 - Level 1 / SELECT LV1 문제 모음 / 
 [문제](https://programmers.co.kr/learn/courses/30/parts/17042)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/sql/select/select%20lv1.sql)
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/sql/select.sql)
 
 
