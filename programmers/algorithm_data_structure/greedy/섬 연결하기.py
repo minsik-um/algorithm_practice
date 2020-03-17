@@ -8,6 +8,9 @@ def my_solution(n, costs):
     [ Prim's Algorithm ] 에 해당한다.
     https://ko.wikipedia.org/wiki/프림_알고리즘
     => 아래 best_prim_solution() 함수 방법대로 구현하자
+
+    그래프에 연결된 노드가 많아 빽빽할 경우: 프림 알고리즘
+    희미하게 연결된 그래프: 크리스컬 알고리즘
     -------------------------------
     다른 코드에 비해 시간 효율성이 안좋다.
     (매번 목록을 새로 만들기 때문)
