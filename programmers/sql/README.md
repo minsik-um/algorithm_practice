@@ -23,3 +23,18 @@ https://programmers.co.kr/learn/challenges
 - [문제](https://programmers.co.kr/learn/courses/30/parts/17043)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/sql/sum_max_min.sql)
+
+## GROUP BY
+- (아직 안함)
+
+## IS NULL
+- IS NULL, Ifnull(), CASE
+- [문제](https://programmers.co.kr/learn/courses/30/parts/17045)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/sql/is_null.sql)
+
+## JOIN
+- (아직 안함)
+
+## String, Date
+- (아직 안함)
