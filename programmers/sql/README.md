@@ -25,7 +25,12 @@ https://programmers.co.kr/learn/challenges
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/sql/sum_max_min.sql)
 
 ## GROUP BY
-- (아직 안함)
+- GROUP BY, HAVING, between and
+- set @..., := 등 변수 활용
+- 상수를 이어 붙여 임시로 테이블 생성
+- [문제](https://programmers.co.kr/learn/courses/30/parts/17044)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/sql/group_by.sql)
 
 ## IS NULL
 - IS NULL, Ifnull(), CASE
