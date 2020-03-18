@@ -39,7 +39,13 @@ https://programmers.co.kr/learn/challenges
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/sql/is_null.sql)
 
 ## JOIN
-- (아직 안함)
+- (LEFT/RIGHT) INNER(OUTER) JOIN, LIKE %...%
+- [문제](https://programmers.co.kr/learn/courses/30/parts/17046)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/sql/join.sql)
 
 ## String, Date
 - (아직 안함)
+- [문제](https://programmers.co.kr/learn/courses/30/parts/17047)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/sql/string_date.sql)
