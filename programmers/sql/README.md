@@ -49,3 +49,14 @@ https://programmers.co.kr/learn/challenges
 - [문제](https://programmers.co.kr/learn/courses/30/parts/17047)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/sql/string_date.sql)
+
+## 다른 문제
+- 우유와 요거트가 담긴 장바구니 
+/ [문제](https://programmers.co.kr/learn/courses/30/lessons/62284)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/sql/우유와%20요거트가%20담긴%20장바구니.sql)
+    - GROUP_CONCAT(... SEPARATOR ...)
+    - 서브 쿼리
+    - DISTINCT
+
+
