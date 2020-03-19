@@ -182,10 +182,16 @@ https://hannom.tistory.com/36
 
 
 ## 탐욕법(Greedy Algorithm)
-- global optimal choice를 찾기 위해 매번 local optimal choice를 고르는 Heuristic 알고리즘.
+- global optimal choice를 찾기 위해 매번 local optimal choice를 고르는 Heuristic 알고리즘. 
 - global optimal choice를 항상 보장하지 않는 대신 근사치에 접근한다.
 - 완전 탐색하기엔 시간이 부족하거나 global optiaml choice가 보장되면 사용한다.
 - Kruskal's Algorithm, Prim's Algorithm (섬 연결하기 문제 참고)
+- `local optimal을 확인하기에 실행 단계를 거듭해도 각 실행단계의 수행 시간이 일정해야 한다.`
+<br>(만약 점점 수행 시간이 늘어나면 그건 완전탐색일 것이다)
+- [풀이 흐름]
+    - 완전탐색처럼 쭉 출력해보며 주어진 문제의 패턴을 본다.
+    - 그 패턴을 표현하는 가장 간단한 방법을 찾아낸다.
+    (저울 문제 참고)
 
 참고
 - https://en.wikipedia.org/wiki/Greedy_algorithm
@@ -220,3 +226,8 @@ https://hannom.tistory.com/36
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42884)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/greedy/단속카메라.py)
+
+- Level 3 / 저울 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42886)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/greedy/저울.py)

@@ -7,7 +7,6 @@
 https://programmers.co.kr/learn/challenges
 
 - mySQL
-- (sql 공부를 좀 더 하고 할 예정)
 
 
 ## SELECT
