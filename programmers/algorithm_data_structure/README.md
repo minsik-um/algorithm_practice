@@ -233,10 +233,15 @@ https://hannom.tistory.com/36
 
 
 ## 동적계획법(Dynamic Programming)
-- (설명)
+- 문제를 여러개의 작은 문제로 나누고 그것을 결합하여 풀면서(Divide and Qunquer)
+- 이전 단계의 결과를 저장하고 다음 단계에 활용하여 중복된 계산을 최소화한다.
 
 참고
-- (링크)
+- https://ko.wikipedia.org/wiki/동적_계획법
+- https://www.zerocho.com/category/Algorithm/post/584b979a580277001862f182
 
 문제 풀이
-- (항목)
+- Level 3 / N으로 표현 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42895)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/greedy/N으로%20표현.py)
