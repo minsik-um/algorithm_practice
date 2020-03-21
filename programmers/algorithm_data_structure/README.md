@@ -245,3 +245,13 @@ https://hannom.tistory.com/36
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42895)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/greedy/N으로%20표현.py)
+
+- Level (1 같은) 3 / 타일 장식물 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/43104)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/greedy/타일%20장식물.py)
+
+- Level 3 / 정수 삼각형 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/43105)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/greedy/정수%20삼각형.py)
