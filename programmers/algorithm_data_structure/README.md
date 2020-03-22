@@ -260,3 +260,31 @@ https://hannom.tistory.com/36
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42898)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/dynamic_programming/등굣길.py)
+
+
+## 깊이/너비 우선 탐색(DFS/BFS)
+- Graph: 정점과 간선으로 이뤄진 자료구조 / G = (V, E)
+- Graph Search: 특정 정점에서 시작해 차례대로 모든 정점을 한 번씩 방문해보기
+- 두 방법 모두 노드 방문 여부를 반드시 검사해야 무한루프에 빠지지 않음
+
+### 깊이 우선 탐색(DFS, Depth-First Search)
+<img src="/imgs/dfs.png" width="450px" alt="depth-first search"></img>
+- 루트 노드에서 시작하여 다음 분기(Branch)로 넘어가기 전에 해당 분기를 완벽히 탐색한다.
+- 자기 자신을 호출하는 순환 알고리즘 형태
+
+### 너비 우선 탐색(BFS, Breadth-First Search)
+<img src="/imgs/bfs.png" width="450px" alt="breadth-first search"></img>
+- 인접한 노드를 먼저 탐색한다.
+- 두 노드 사이의 (최단) 경로 찾기에 이용(DFS는 모든 관계 탐색을 해야 한다)
+- 재귀 탐색이 불가능하며 큐(Queue 사용)
+
+참고
+- https://yunyoung1819.tistory.com/86
+- https://en.wikipedia.org/wiki/Depth-first_search
+- https://en.wikipedia.org/wiki/Breadth-first_search
+
+문제 풀이
+- Level 2 / 타겟 넘버 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/43165)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/dfs_bfs/타겟%20넘버.py)
