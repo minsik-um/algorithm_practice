@@ -3,5 +3,5 @@
     "python.linting.pylintEnabled": false,
     "python.linting.pylamaEnabled": true,
     "python.linting.banditEnabled": false,
-    "python.pythonPath": "C:\\Users\\ekrmd\\AppData\\Local\\Programs\\Python\\Python37\\python.exe"
+    "python.pythonPath": "D:\\Users\\ekrmd\\anaconda3\\envs\\algorithm\\python.exe"
 }

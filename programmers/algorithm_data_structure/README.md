@@ -235,6 +235,9 @@ https://hannom.tistory.com/36
 ## 동적계획법(Dynamic Programming)
 - 문제를 여러개의 작은 문제로 나누고 그것을 결합하여 풀면서(Divide and Qunquer)
 - 이전 단계의 결과를 저장하고 다음 단계에 활용하여 중복된 계산을 최소화한다.
+- 길찾기 문제가 주로 등장하며 2차원 리스트(행렬)에 정보를 저장해 전개한다.
+- 길찾기 탐색 방향을 정방향/역방향으로 할지 고민해봐야 한다(예. 카드 게임)
+- 이전/하위 문제의 최적 결과를 합쳤을 때 그게 상위 문제의 최적 결과임이 보장되어야 한다.
 
 참고
 - https://ko.wikipedia.org/wiki/동적_계획법
@@ -260,6 +263,11 @@ https://hannom.tistory.com/36
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42898)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/dynamic_programming/등굣길.py)
+
+- Level 4 / 카드 게임 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42896)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/dynamic_programming/카드%20게임.py)
 
 
 ## 깊이/너비 우선 탐색(DFS/BFS)
