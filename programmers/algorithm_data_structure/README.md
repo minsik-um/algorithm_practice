@@ -235,14 +235,13 @@ https://hannom.tistory.com/36
 ## 동적계획법(Dynamic Programming)
 - 문제를 여러개의 작은 문제로 나누고 그것을 결합하여 풀면서(Divide and Qunquer)
 - 이전 단계의 결과를 저장하고 다음 단계에 활용하여 중복된 계산을 최소화한다.
-- 이전/하위 문제의 최적 결과를 합쳤을 때 그게 상위 문제의 최적 결과임이 보장되어야 한다.
-- 길찾기 문제가 주로 등장하며 2차원 리스트(행렬)에 정보를 저장해 전개한다.
+- **귀납적 사고**를 하면 된다. 최댓값을 이어간다: 이전 상태 최댓값으로 현재 상태 최댓값을 계산한다.
+    - 도둑질, 서울에서 경산까지 문제처럼 주어진 개념을 길찾기 문제처럼 접근하자.
+- (최대 가치) 길찾기 문제가 주로 등장하며 2차원 리스트(행렬) 혹은 해시 구조에 정보를 저장해간다.
 - 재귀함수를 이용하면 memoization을 활용하자(예. 정수삼각형 및 상위 레벨)
     - memoization에는 dictionary를 쓰자. 열거형 key(hashble type)는 tuple이어야 한다.
     - 코드는 간단해보여도 대부분 시간 효율성이 안좋거나 depth limit에 걸린다.
 - 길찾기 탐색 방향을 정방향/역방향으로 할지 고민해봐야 한다(예. 카드 게임)
-- 길찾기 문제처럼 생각하되 매번 선택 경우의 수가 고정되게 개념을 짜야 된다(예. 도둑질)
-
 
 참고
 - https://ko.wikipedia.org/wiki/동적_계획법
@@ -278,6 +277,12 @@ https://hannom.tistory.com/36
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42897)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/dynamic_programming/도둑질.py)
+
+- Level 4 / 서울에서 경산까지 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/42899)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/dynamic_programming/서울에서%20경산까지.py)
+
 
 ## 깊이/너비 우선 탐색(DFS/BFS)
 - Graph: 정점과 간선으로 이뤄진 자료구조 / G = (V, E)
