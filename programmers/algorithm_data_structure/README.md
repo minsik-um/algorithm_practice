@@ -289,6 +289,7 @@ https://hannom.tistory.com/36
 - Graph Search: 특정 정점에서 시작해 차례대로 모든 정점을 한 번씩 방문해보기
 - 두 방법 모두 노드 방문 여부를 반드시 검사해야 무한루프에 빠지지 않음
 - 노드 방문 여부는 보통 1차원 리스트 visited에 0/1 을 채우며 검사한다.
+- dict(defaultdict) 자료형으로 graph 구조를 만들어 활용하면 가능한 다음 노드 목록을 O(1)로 가져올 수 있어 빠르다.(예. 여행경로 문제)
 
 ### 깊이 우선 탐색(DFS, Depth-First Search)
 <img src="/imgs/dfs.png" width="450px" alt="depth-first search"></img>
@@ -317,3 +318,13 @@ https://hannom.tistory.com/36
 [문제](https://programmers.co.kr/learn/courses/30/lessons/43162)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/dfs_bfs/네트워크.py)
+
+- Level 3 / 단어 변환 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/43163)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/dfs_bfs/단어%20변환.py)
+
+- Level 3 / 여행경로 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/43164)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/dfs_bfs/여행경로.py)
