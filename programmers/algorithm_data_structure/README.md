@@ -328,3 +328,19 @@ https://hannom.tistory.com/36
 [문제](https://programmers.co.kr/learn/courses/30/lessons/43164)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/dfs_bfs/여행경로.py)
+
+
+## 이분 탐색(Binary Search)
+- `정렬`이 된 리스트에서 `O(logn)` 속도로 원하는 값을 찾는 방법
+- start, middle, end를 두고 `middle = (start+end)//2` 로 설정한다.
+- middle 값이 목표값보다 클 경우 `start = middle +1`, 작으면 `end = middle -1` 로 설정한다.
+- `start > end` 될 때까지 반복하면 원하는 값을 찾는다.
+
+참고
+- https://wootool.tistory.com/62
+
+문제 풀이
+- Level 3 / 예산 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/43237)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/binary_search/예산.py)
