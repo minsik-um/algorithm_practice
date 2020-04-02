@@ -344,3 +344,15 @@ https://hannom.tistory.com/36
 [문제](https://programmers.co.kr/learn/courses/30/lessons/43237)
 /
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/binary_search/예산.py)
+
+- Level 3 / 입국심사 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/43238)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/binary_search/입국심사.py)
+<!--
+- Level 4 / 징검다리 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/43236)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/binary_search/징검다리.py)
+-->
+
