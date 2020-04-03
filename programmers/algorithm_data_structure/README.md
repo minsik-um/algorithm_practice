@@ -356,3 +356,13 @@ https://hannom.tistory.com/36
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/binary_search/징검다리.py)
 -->
 
+
+## 그래프(Graph)
+- Graph: 정점과 간선으로 이뤄진 자료구조 / G = (V, E)
+- collections 모듈의 defaultdict를 사용하면 그래프 생성 초기화를 빠르게 할 수 있다.
+
+문제 풀이
+- Level 3 / 가장 먼 노드 / 
+[문제](https://programmers.co.kr/learn/courses/30/lessons/49189)
+/
+[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/graph/가장%20먼%20노드.py)
