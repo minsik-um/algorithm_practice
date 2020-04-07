@@ -6,22 +6,29 @@
 <br>
 https://programmers.co.kr/learn/challenges
 
-- Python3
+- Python3, Java
 - 하루 1문제씩(lv1 문제는 풀지만 할당량에서 제외)
 - 코딩 테스트 연습에 공개된 문제가 아닌, 기업 입사 코딩 테스트 등에 나온 문제는 법적 문제상 올리면 안된다. [출처](https://programmers.zendesk.com/hc/ko/articles/360034546572-프로그래머스의-알고리즘-문제-풀이를-개인-블로그-깃헙-기타-사이트에-올려도-되나요-)
 - itertools, operator 라이브러리를 활용하여 Pythonic code를 만들 수 있다.<br>https://hamait.tistory.com/803
 
 
 ## 해시(Hash)
->Key: Value 형태의 Set
+- Key: Value 형태의 Set
 - Key는 Unique 하며 str이 가능. str 혹은 int으로 특정 값을 찾을 때 O(1)로 빠르게 탐색 가능
 - (str, tuple, ...)여러 타입의 Key로 value를 불러올 수 있음
+
+|언어|객체|import|
+|---|---|---|
+|Python3|dict|(built-in type)|
+|Java|HashMap|java.util.HashMap|
 
 문제 풀이
 - Level 1 / 완주하지 못한 선수 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42576?language=python3)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/hash/완주하지%20못한%20선수.py)
+[Python3](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/hash/완주하지%20못한%20선수.py)
+/
+[Java](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/hash/완주하지%20못한%20선수.java)
 
 - Level 2 / 전화번호 목록 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42577)
