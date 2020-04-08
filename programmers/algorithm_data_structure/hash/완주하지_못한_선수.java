@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 
-class Solution {
+class 완주하지_못한_선수 {
     /*
     http://tech.javacafe.io/2018/12/03/HashMap/
     http://javabypatel.blogspot.com/2015/10/time-complexity-of-hashmap-get-and-put-operation.html
@@ -21,6 +21,8 @@ class Solution {
         }
         */
 
+        // value값을 참조할거면 entrySet이 속도 면에서 빠르다.
+        // https://stackoverflow.com/questions/3870064/performance-considerations-for-keyset-and-entryset-of-map
         Set<Map.Entry<String, Integer>> entries = hm.entrySet();
         for (Map.Entry<String, Integer> entry : entries) {
             if (entry.getValue() != 0){
@@ -28,16 +30,6 @@ class Solution {
             }
         }
 
-        /*
-        람다를 forEach와 결합할 수 있다.
-        람다문 안에는 지역 변수에 final을 붙여야 해서 안된다고 뜨지만
-        이런 형태를 나중에 활용해보자.
-        set.forEach((key, value) -> {
-            if (value != 0){
-                answer = key;
-            }
-        });
-        */
         return answer;
     }
 
