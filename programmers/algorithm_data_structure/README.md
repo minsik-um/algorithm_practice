@@ -42,6 +42,26 @@ _출처: [프로그래머스 코딩 테스트 연습](https://programmers.co.kr/
 [풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/hash/베스트앨범.py)
 
 
+## Trie
+![trie example](https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Trie_example.svg/375px-Trie_example.svg.png)
+
+요약
+- 문자열 검색에 특화된 자료 구조
+- Trie를 안쓴다면 하나하나 찾아서 비교해야 한다.
+
+참고
+- https://en.wikipedia.org/wiki/Trie
+- https://brunch.co.kr/@springboot/75
+
+### 트리(Tree)
+트리(Tree)는 정점과 간선으로 구성되는 계층 관계를 나타내는 자료 구조다. 가장 상위 노드는 루트(root), 가장 하위 노드는 리프(leaf)라고 부른다. 트라이도 트리의 한 종류다.
+
+### 트라이(Trie)
+트라이(Trie)는 보통 Prefix Tree, Digital Search Tree, Retrival(되찾다) Tree 로 불린다. 트라이는 retrieval에서 따왔다. 트라이는 문자열 Key로 사용하는 동적인 Set을 저장하는 확장 트리 자료구조다. 쉽게 말해 springboot를 찾기 위해 s를 찾고, 그 다음에 p, r, ... 순서로 가는 구조다.
+
+전화번호_목록.py를 참고하자.
+
+
 ## 스택/큐(Stack/Queue)
 >Stack: LIFO(Last Input First Output)<br>
 Queue: FIFO(first Input First Output)

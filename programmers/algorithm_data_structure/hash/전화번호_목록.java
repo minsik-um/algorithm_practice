@@ -1,4 +1,4 @@
-import java.util.HashMap;
+import java.util.*;
 
 class 전화번호_목록 {
     public boolean my_solution(String[] phone_book) {        
@@ -64,3 +64,5 @@ class 전화번호_목록 {
         return true;
     }    
 }
+
+

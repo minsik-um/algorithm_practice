@@ -32,3 +32,57 @@ def other_solution(phone_book):
 
     return True
 
+
+# 트라이(Trie)를 이용한 풀이
+# 출처: https://programmers.co.kr/learn/questions/10365
+
+# 트라이 내에 담을 노드
+class Node(object):
+    def __init__(self, key, data=None):
+        self.key = key
+        self.data = data
+        self.children = {}
+
+
+class Trie(object):
+    def __init__(self):
+        self.head = Node(None)
+
+    def insert(self, string):
+        curr_node = self.head
+
+        for char in string:
+            # 이 문자의 접두사가 trie에 있다면 False 반환
+            if curr_node.data is not None:
+                return False
+
+            if char not in curr_node.children:
+                curr_node.children[char] = Node(char)
+
+            curr_node = curr_node.children[char]
+
+        curr_node.data = string
+        return True
+
+    def search(self, string):
+        curr_node = self.head
+
+        for char in string:
+            if char in curr_node.children:
+                # 이 문자의 접두사가 trie에 있다면 False 반환
+                if curr_node.data is not None:
+                    return False
+                curr_node = curr_node.children[char]
+
+        return True
+
+
+def trie_solution(phone_book: list) -> bool:
+    tri = Trie()
+    for p in phone_book:
+        if not tri.insert(p):
+            return False
+    for p in phone_book:
+        if not tri.search(p):
+            return False
+    return True
