@@ -31,10 +31,11 @@ _출처: [프로그래머스 코딩 테스트 연습](https://programmers.co.kr/
 /
 [Java](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/hash/전화번호%20목록.java)
 
-- Level 2 / 위장 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42578)
+- Level 2 / [위장](https://programmers.co.kr/learn/courses/30/lessons/42578)
 /
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/hash/위장.py)
+[Python3](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/hash/위장.py)
+/
+[Java](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/hash/위장.java)
 
 - Level 3 / 베스트앨범 / 
 [문제](https://programmers.co.kr/learn/courses/30/lessons/42579)
