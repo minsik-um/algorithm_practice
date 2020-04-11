@@ -8,15 +8,15 @@ _출처: [프로그래머스 코딩 테스트 연습](https://programmers.co.kr/
 - [Java Stream을 이용한 함수형 프로그래밍](functional_programming.md)
 
 ## 해시 맵(Hash Map)
-- Hash: string이나 다른 object를 int 정수 코드로 변환
-- Map: Key: Value 형태의 Set, Key는 unique하며 str이 가능
-- get()/put()이 O(1)로 수렴하여 빠르게 탐색 가능
-- str, tuple 등 여러 타입의 Key로 value를 불러올 수 있음
-
 |언어|객체|설명|
 |---|---|---|
 |Python3|dict|built-in type|
 |Java|HashMap, TreeMap, LinkedHashMap|Time complexity와 iteration Order 차이<br>(전화번호 목록.java 참고)|
+
+- Hash: string이나 다른 object를 int 정수 코드로 변환
+- Map: Key: Value 형태의 Set, Key는 unique하며 str이 가능
+- get()/put()이 O(1)로 수렴하여 빠르게 탐색 가능
+- str, tuple 등 여러 타입의 Key로 value를 불러올 수 있음
 
 문제 풀이
 - Level 1 / [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)
