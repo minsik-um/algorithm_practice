@@ -37,8 +37,8 @@ _출처: [프로그래머스 코딩 테스트 연습](https://programmers.co.kr/
 
 
 ## Trie
-<!-- 이미지에 뒷배경을 넣기 위해 html 태그 사용 -->
-<img style="background-color=white;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Trie_example.svg/375px-Trie_example.svg.png" alt="Trie Image">
+<!-- 이미지에 하얀색 배경을 넣기 위해 html 태그 사용 -->
+<img style="background-color: white; background-blend-mode: multiply;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Trie_example.svg/375px-Trie_example.svg.png" alt="Trie Image"/>
 
 요약
 - 문자열 검색에 특화된 자료 구조
@@ -90,7 +90,7 @@ _출처: [프로그래머스 코딩 테스트 연습](https://programmers.co.kr/
 
 
 ## 힙(Heap)
-<img style="background-color=white;" src="../../imgs/heap_example.png" width="330px" alt="heap example"/>
+<img style="background-color: white; background-blend-mode: multiply;" src="../../imgs/heap_example.png" width="330px" alt="heap example"/>
 
 - A가 B의 부모노드(parent node) 이면, A의 키(key)값과 B의 키값 사이에는 대소관계가 성립하는 완전이진트리
 - Heap Property를 만족하는 Complete Binary Tree. **유동적인 리스트에서 최댓값/최솟값을 빠르게 찾기 위함.** root node로 올수록 클 경우 max-heap, 작으면 min-heap이다.
@@ -248,14 +248,14 @@ https://hannom.tistory.com/36
 - dict(defaultdict) 자료형으로 graph 구조를 만들어 활용하면 가능한 다음 노드 목록을 O(1)로 가져올 수 있어 빠르다.(예. 여행경로 문제)
 
 ### 깊이 우선 탐색(DFS, Depth-First Search)
-<img style="background-color=white;" src="../../imgs/dfs.png" width="450px" alt="depth-first search"/>
+<img style="background-color: white; background-blend-mode: multiply;" src="../../imgs/dfs.png" width="450px" alt="depth-first search"/>
 
 - 루트 노드에서 시작하여 다음 분기(Branch)로 넘어가기 전에 해당 분기를 완벽히 탐색한다.
 - 자기 자신을 호출하는 순환 알고리즘 형태
 - Stack 자료구조 혹은 재귀 탐색 사용
 
 ### 너비 우선 탐색(BFS, Breadth-First Search)
-<img style="background-color=white;" src="../../imgs/bfs.png" width="450px" alt="breadth-first search"/>
+<img style="background-color: white; background-blend-mode: multiply;" src="../../imgs/bfs.png" width="450px" alt="breadth-first search"/>
 
 - 인접한 노드를 먼저 탐색한다.
 - 두 노드 사이의 (최단) 경로 찾기에 이용(DFS는 모든 관계 탐색을 해야 한다)
