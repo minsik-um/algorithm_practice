@@ -6,7 +6,7 @@ _출처: [프로그래머스 코딩 테스트 연습](https://programmers.co.kr/
 
 - Python3, Java
 - 코딩 테스트 연습에 공개된 문제가 아닌, 기업 입사 코딩 테스트 등에 나온 문제는 법적 문제상 올리면 안된다. [(출처)](https://programmers.zendesk.com/hc/ko/articles/360034546572-프로그래머스의-알고리즘-문제-풀이를-개인-블로그-깃헙-기타-사이트에-올려도-되나요-)
-- [Java Stream을 이용한 함수형 프로그래밍](./java_functional_programming.md)
+- [Java Stream을 이용한 함수형 프로그래밍](functional_programming.md)
 
 ## 해시 맵(Hash Map)
 - Hash: string이나 다른 object를 int 정수 코드로 변환
@@ -20,29 +20,21 @@ _출처: [프로그래머스 코딩 테스트 연습](https://programmers.co.kr/
 |Java|HashMap, TreeMap, LinkedHashMap|Time complexity와 iteration Order 차이<br>(전화번호 목록.java 참고)|
 
 문제 풀이
-- Level 1 / [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)
-/
-[Python3](hash/완주하지%20못한%20선수.py)
-/
-[Java](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/hash/완주하지%20못한%20선수.java)
+- Level 1 / [[완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)
+/ [Python3](hash/완주하지%20못한%20선수.py)
+/ [Java](hash/완주하지%20못한%20선수.java)
 
-- Level 2 / [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
-/
-[Python3](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/hash/전화번호%20목록.py)
-/
-[Java](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/hash/전화번호%20목록.java)
+- Level 2 / [[전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
+/ [Python3](hash/전화번호%20목록.py)
+/ [Java](hash/전화번호%20목록.java)
 
-- Level 2 / [위장](https://programmers.co.kr/learn/courses/30/lessons/42578)
-/
-[Python3](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/hash/위장.py)
-/
-[Java](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/hash/위장.java)
+- Level 2 / [[위장](https://programmers.co.kr/learn/courses/30/lessons/42578)
+/ [Python3](hash/위장.py)
+/ [Java](hash/위장.java)
 
-- Level 3 / [베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)
-/
-[Python3](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/hash/베스트앨범.py)
-/
-[Java](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/hash/베스트앨범.java)
+- Level 3 / [[베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)
+/ [Python3](hash/베스트앨범.py)
+/ [Java](hash/베스트앨범.java)
 
 
 ## Trie
@@ -79,35 +71,23 @@ Queue: FIFO(first Input First Output)
 - [스택_큐 개념](https://mygumi.tistory.com/357)
 
 문제풀이
-- Level 2 / 탑 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42588)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/stack_queue/탑.py)
+- Level 2 / [탑](https://programmers.co.kr/learn/courses/30/lessons/42588)
+/ [Python3](stack_queue/탑.py)
 
-- Level 2 / 다리를 지나는 트럭 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42583)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/stack_queue/다리를%20지나는%20트럭.py)
+- Level 2 / [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)
+/ [Python3](stack_queue/다리를%20지나는%20트럭.py)
 
-- Level 2 / 기능개발 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42586)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/stack_queue/기능개발.py)
+- Level 2 / [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
+/ [Python3](stack_queue/기능개발.py)
 
-- Level 2 / 프린터 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42587)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/stack_queue/프린터.py)
+- Level 2 / [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)
+/ [Python3](stack_queue/프린터.py)
 
-- Level 2 / 쇠막대기 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42585)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/stack_queue/쇠막대기.py)
+- Level 2 / [쇠막대기](https://programmers.co.kr/learn/courses/30/lessons/42585)
+/ [Python3](stack_queue/쇠막대기.py)
 
-- Level 2 / 주식개발 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42584)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/stack_queue/주식개발.py)
+- Level 2 / [주식개발](https://programmers.co.kr/learn/courses/30/lessons/42584)
+/ [Python3](stack_queue/주식개발.py)
 
 
 ## 힙(Heap)
@@ -123,25 +103,17 @@ https://hannom.tistory.com/36
 - https://docs.python.org/3.7/library/heapq.html
 
 문제 풀이
-- Level 2 / 더 맵게 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42626)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/heap/더%20맵게.py)
+- Level 2 / [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
+/ [Python3](heap/더%20맵게.py)
 
-- Level 2 / 라면공장 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42629)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/heap/라면공장.py)
+- Level 2 / [라면공장](https://programmers.co.kr/learn/courses/30/lessons/42629)
+/ [Python3](heap/라면공장.py)
 
-- Level 3 / 디스크 콘트롤러 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42627)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/heap/디스크%20콘트롤러.py)
+- Level 3 / [디스크 콘트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)
+/ [Python3](heap/디스크%20콘트롤러.py)
 
-- Level 3 / 이중우선순위큐 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42628)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/heap/이중우선순위큐.py)
+- Level 3 / [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628)
+/ [Python3](heap/이중우선순위큐.py)
 
 
 ## 정렬(Sort)
@@ -156,20 +128,14 @@ https://hannom.tistory.com/36
 - [파이썬 정렬 사용](https://docs.python.org/ko/3/howto/sorting.html)
 
 문제 풀이
-- Level 1 / K번째수 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42748)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/sort/k번째수.py)
+- Level 1 / [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)
+/ [Python3](sort/k번째수.py)
 
-- Level 2 / 가장 큰 수 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42746)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/sort/가장%20큰%20수.py)
+- Level 2 / [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)
+/ [Python3](sort/가장%20큰%20수.py)
 
-- Level 2 / H-Index / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42747)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/sort/h-index.py)
+- Level 2 / [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
+/ [Python3](sort/h-index.py)
 
 
 ## 완전탐색(Brute-force Search)
@@ -186,25 +152,17 @@ https://hannom.tistory.com/36
 - https://en.wikipedia.org/wiki/Heuristic_(computer_science)
 
 문제 풀이
-- Level 1 / 모의고사 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42840)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/brute_force_search/모의고사.py)
+- Level 1 / [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
+/ [Python3](brute_force_search/모의고사.py)
 
-- Level 2 / 소수 찾기 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42839)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/brute_force_search/소수%20찾기.py)
+- Level 2 / [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
+/ [Python3](brute_force_search/소수%20찾기.py)
 
-- Level 2 / 숫자 야구 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42841)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/brute_force_search/숫자%20야구.py)
+- Level 2 / [숫자 야구](https://programmers.co.kr/learn/courses/30/lessons/42841)
+/ [Python3](brute_force_search/숫자%20야구.py)
 
-- Level 2 / 카펫 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42842?language=python3)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/brute_force_search/카펫.py)
+- Level 2 / [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842?language=python3)
+/ [Python3](brute_force_search/카펫.py)
 
 
 ## 탐욕법(Greedy Algorithm)
@@ -222,40 +180,26 @@ https://hannom.tistory.com/36
 - https://en.wikipedia.org/wiki/Greedy_algorithm
 
 문제 풀이
-- Level 1 / 체육복 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42862)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/greedy/체육복.py)
+- Level 1 / [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)
+/ [Python3](greedy/체육복.py)
 
-- Level 2 / 조이스틱 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42860)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/greedy/조이스틱.py)
+- Level 2 / [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)
+/ [Python3](greedy/조이스틱.py)
 
-- Level 2 / 큰 수 만들기 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42883)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/greedy/큰%20수%20만들기.py)
+- Level 2 / [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)
+/ [Python3](greedy/큰%20수%20만들기.py)
 
-- Level 2 / 구명보트 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42885)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/greedy/구명보트.py)
+- Level 2 / [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885)
+/ [Python3](greedy/구명보트.py)
 
-- Level 3 / 섬 연결하기 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42861)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/greedy/섬%20연결하기.py)
+- Level 3 / [섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861)
+/ [Python3](greedy/섬%20연결하기.py)
 
-- Level 3 / 단속카메라 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42884)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/greedy/단속카메라.py)
+- Level 3 / [단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884)
+/ [Python3](greedy/단속카메라.py)
 
-- Level 3 / 저울 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42886)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/greedy/저울.py)
+- Level 3 / [저울](https://programmers.co.kr/learn/courses/30/lessons/42886)
+/ [Python3](greedy/저울.py)
 
 
 ## 동적계획법(Dynamic Programming)
@@ -274,40 +218,26 @@ https://hannom.tistory.com/36
 - https://www.zerocho.com/category/Algorithm/post/584b979a580277001862f182
 
 문제 풀이
-- Level 3 / N으로 표현 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42895)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/dynamic_programming/N으로%20표현.py)
+- Level 3 / [N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895)
+/ [Python3](dynamic_programming/N으로%20표현.py)
 
-- Level (1 같은) 3 / 타일 장식물 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/43104)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/dynamic_programming/타일%20장식물.py)
+- Level (1 같은) 3 / 타일 장식물](https://programmers.co.kr/learn/courses/30/lessons/43104)
+/ [Python3](dynamic_programming/타일%20장식물.py)
 
-- Level 3 / 정수 삼각형 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/43105)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/dynamic_programming/정수%20삼각형.py)
+- Level 3 / [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105)
+/ [Python3](dynamic_programming/정수%20삼각형.py)
 
-- Level 3 / 등굣길 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42898)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/dynamic_programming/등굣길.py)
+- Level 3 / [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898)
+/ [Python3](dynamic_programming/등굣길.py)
 
-- Level 4 / 카드 게임 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42896)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/dynamic_programming/카드%20게임.py)
+- Level 4 / [카드 게임](https://programmers.co.kr/learn/courses/30/lessons/42896)
+/ [Python3](dynamic_programming/카드%20게임.py)
 
-- Level 4 / 도둑질 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42897)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/dynamic_programming/도둑질.py)
+- Level 4 / [도둑질](https://programmers.co.kr/learn/courses/30/lessons/42897)
+/ [Python3](dynamic_programming/도둑질.py)
 
-- Level 4 / 서울에서 경산까지 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/42899)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/dynamic_programming/서울에서%20경산까지.py)
+- Level 4 / [서울에서 경산까지](https://programmers.co.kr/learn/courses/30/lessons/42899)
+/ [Python3](dynamic_programming/서울에서%20경산까지.py)
 
 
 ## 깊이/너비 우선 탐색(DFS/BFS)
@@ -335,25 +265,17 @@ https://hannom.tistory.com/36
 - https://en.wikipedia.org/wiki/Breadth-first_search
 
 문제 풀이
-- Level 2 / 타겟 넘버 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/43165)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/dfs_bfs/타겟%20넘버.py)
+- Level 2 / [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)
+/ [Python3](dfs_bfs/타겟%20넘버.py)
 
-- Level 3 / 네트워크 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/43162)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/dfs_bfs/네트워크.py)
+- Level 3 / [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)
+/ [Python3](dfs_bfs/네트워크.py)
 
-- Level 3 / 단어 변환 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/43163)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/dfs_bfs/단어%20변환.py)
+- Level 3 / [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163)
+/ [Python3](dfs_bfs/단어%20변환.py)
 
-- Level 3 / 여행경로 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/43164)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/dfs_bfs/여행경로.py)
+- Level 3 / [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164)
+/ [Python3](dfs_bfs/여행경로.py)
 
 
 ## 이분 탐색(Binary Search)
@@ -366,20 +288,14 @@ https://hannom.tistory.com/36
 - https://wootool.tistory.com/62
 
 문제 풀이
-- Level 3 / 예산 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/43237)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/binary_search/예산.py)
+- Level 3 / [예산](https://programmers.co.kr/learn/courses/30/lessons/43237)
+/ [Python3](binary_search/예산.py)
 
-- Level 3 / 입국심사 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/43238)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/binary_search/입국심사.py)
+- Level 3 / [입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238)
+/ [Python3](binary_search/입국심사.py)
 <!--
-- Level 4 / 징검다리 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/43236)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/binary_search/징검다리.py)
+- Level 4 / [징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236)
+/ [Python3](binary_search/징검다리.py)
 -->
 
 
@@ -388,7 +304,5 @@ https://hannom.tistory.com/36
 - collections 모듈의 defaultdict를 사용하면 그래프 생성 초기화를 빠르게 할 수 있다.
 
 문제 풀이
-- Level 3 / 가장 먼 노드 / 
-[문제](https://programmers.co.kr/learn/courses/30/lessons/49189)
-/
-[풀이](https://github.com/minsik-um/algorithm_practice/blob/master/programmers/algorithm_data_structure/graph/가장%20먼%20노드.py)
+- Level 3 / [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)
+/ [Python3](graph/가장%20먼%20노드.py)

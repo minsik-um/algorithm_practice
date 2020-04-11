@@ -117,9 +117,9 @@ public class 베스트앨범 {
         }
     
         public String getGenre() {return genre;}
-      }
+    }
     
-      public int[] bestSolution2(String[] genres, int[] plays) {
+    public int[] bestSolution2(String[] genres, int[] plays) {
         /*
         mapToObj: 원소 하나하나를 다른 걸로 바꿈
         collect : reduce나 groupingBy 같이 집약적인 함수를 처리
@@ -135,14 +135,13 @@ public class 베스트앨범 {
         .sorted((a, b) -> sum(b.getValue()) - sum(a.getValue()))
         .flatMap(x->x.getValue().stream().sorted().limit(2))
         .mapToInt(x->x.id).toArray();
-      }
+    }
     
-      private int sum(List<Music> value) {
+    private int sum(List<Music> value) {
         int answer = 0;
         for (Music music : value) {
-          answer+=music.played;
+            answer+=music.played;
         }
         return answer;
-      }
-
+    }
 }
