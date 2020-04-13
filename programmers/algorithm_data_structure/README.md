@@ -9,9 +9,9 @@ _출처: [프로그래머스 코딩 테스트 연습](https://programmers.co.kr/
 
 ## 해시 맵(Hash Map)
 |언어|객체|설명|
-|---|---|---|
+|---:|---|---|
 |Python3|dict|built-in type|
-|Java|HashMap, TreeMap, LinkedHashMap|Time complexity와 iteration Order 차이<br>(전화번호 목록.java 참고)|
+|Java|Map, HashMap,<br>TreeMap, LinkedHashMap|Time complexity와 iteration Order 차이<br>(전화번호 목록.java 참고)|
 
 - Hash: string이나 다른 object를 int 정수 코드로 변환
 - Map: Key: Value 형태의 Set, Key는 unique하며 str이 가능
@@ -22,15 +22,12 @@ _출처: [프로그래머스 코딩 테스트 연습](https://programmers.co.kr/
 - Level 1 / [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)
 / [Python3](hash/완주하지%20못한%20선수.py)
 / [Java](hash/완주하지%20못한%20선수.java)
-
 - Level 2 / [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
 / [Python3](hash/전화번호%20목록.py)
 / [Java](hash/전화번호%20목록.java)
-
 - Level 2 / [위장](https://programmers.co.kr/learn/courses/30/lessons/42578)
 / [Python3](hash/위장.py)
 / [Java](hash/위장.java)
-
 - Level 3 / [베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)
 / [Python3](hash/베스트앨범.py)
 / [Java](hash/베스트앨범.java)
@@ -71,19 +68,14 @@ _출처: [프로그래머스 코딩 테스트 연습](https://programmers.co.kr/
 문제풀이
 - Level 2 / [탑](https://programmers.co.kr/learn/courses/30/lessons/42588)
 / [Python3](stack_queue/탑.py)
-
 - Level 2 / [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)
 / [Python3](stack_queue/다리를%20지나는%20트럭.py)
-
 - Level 2 / [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
 / [Python3](stack_queue/기능개발.py)
-
 - Level 2 / [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)
 / [Python3](stack_queue/프린터.py)
-
 - Level 2 / [쇠막대기](https://programmers.co.kr/learn/courses/30/lessons/42585)
 / [Python3](stack_queue/쇠막대기.py)
-
 - Level 2 / [주식개발](https://programmers.co.kr/learn/courses/30/lessons/42584)
 / [Python3](stack_queue/주식개발.py)
 
@@ -104,13 +96,10 @@ https://hannom.tistory.com/36
 문제 풀이
 - Level 2 / [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
 / [Python3](heap/더%20맵게.py)
-
 - Level 2 / [라면공장](https://programmers.co.kr/learn/courses/30/lessons/42629)
 / [Python3](heap/라면공장.py)
-
 - Level 3 / [디스크 콘트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)
 / [Python3](heap/디스크%20콘트롤러.py)
-
 - Level 3 / [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628)
 / [Python3](heap/이중우선순위큐.py)
 
@@ -129,10 +118,8 @@ https://hannom.tistory.com/36
 문제 풀이
 - Level 1 / [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)
 / [Python3](sort/k번째수.py)
-
 - Level 2 / [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)
 / [Python3](sort/가장%20큰%20수.py)
-
 - Level 2 / [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
 / [Python3](sort/h-index.py)
 
@@ -153,13 +140,10 @@ https://hannom.tistory.com/36
 문제 풀이
 - Level 1 / [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
 / [Python3](brute_force_search/모의고사.py)
-
 - Level 2 / [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
 / [Python3](brute_force_search/소수%20찾기.py)
-
 - Level 2 / [숫자 야구](https://programmers.co.kr/learn/courses/30/lessons/42841)
 / [Python3](brute_force_search/숫자%20야구.py)
-
 - Level 2 / [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842?language=python3)
 / [Python3](brute_force_search/카펫.py)
 
@@ -181,22 +165,16 @@ https://hannom.tistory.com/36
 문제 풀이
 - Level 1 / [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)
 / [Python3](greedy/체육복.py)
-
 - Level 2 / [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)
 / [Python3](greedy/조이스틱.py)
-
 - Level 2 / [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)
 / [Python3](greedy/큰%20수%20만들기.py)
-
 - Level 2 / [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885)
 / [Python3](greedy/구명보트.py)
-
 - Level 3 / [섬 연결하기](https://programmers.co.kr/learn/courses/30/lessons/42861)
 / [Python3](greedy/섬%20연결하기.py)
-
 - Level 3 / [단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884)
 / [Python3](greedy/단속카메라.py)
-
 - Level 3 / [저울](https://programmers.co.kr/learn/courses/30/lessons/42886)
 / [Python3](greedy/저울.py)
 
@@ -219,22 +197,16 @@ https://hannom.tistory.com/36
 문제 풀이
 - Level 3 / [N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895)
 / [Python3](dynamic_programming/N으로%20표현.py)
-
 - Level (1 같은) 3 / 타일 장식물](https://programmers.co.kr/learn/courses/30/lessons/43104)
 / [Python3](dynamic_programming/타일%20장식물.py)
-
 - Level 3 / [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105)
 / [Python3](dynamic_programming/정수%20삼각형.py)
-
 - Level 3 / [등굣길](https://programmers.co.kr/learn/courses/30/lessons/42898)
 / [Python3](dynamic_programming/등굣길.py)
-
 - Level 4 / [카드 게임](https://programmers.co.kr/learn/courses/30/lessons/42896)
 / [Python3](dynamic_programming/카드%20게임.py)
-
 - Level 4 / [도둑질](https://programmers.co.kr/learn/courses/30/lessons/42897)
 / [Python3](dynamic_programming/도둑질.py)
-
 - Level 4 / [서울에서 경산까지](https://programmers.co.kr/learn/courses/30/lessons/42899)
 / [Python3](dynamic_programming/서울에서%20경산까지.py)
 
@@ -268,13 +240,10 @@ https://hannom.tistory.com/36
 문제 풀이
 - Level 2 / [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)
 / [Python3](dfs_bfs/타겟%20넘버.py)
-
 - Level 3 / [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)
 / [Python3](dfs_bfs/네트워크.py)
-
 - Level 3 / [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163)
 / [Python3](dfs_bfs/단어%20변환.py)
-
 - Level 3 / [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164)
 / [Python3](dfs_bfs/여행경로.py)
 
@@ -291,13 +260,10 @@ https://hannom.tistory.com/36
 문제 풀이
 - Level 3 / [예산](https://programmers.co.kr/learn/courses/30/lessons/43237)
 / [Python3](binary_search/예산.py)
-
 - Level 3 / [입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238)
 / [Python3](binary_search/입국심사.py)
-<!--
 - Level 4 / [징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236)
 / [Python3](binary_search/징검다리.py)
--->
 
 
 ## 그래프(Graph)
