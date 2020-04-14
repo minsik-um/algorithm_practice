@@ -273,3 +273,74 @@ https://hannom.tistory.com/36
 문제 풀이
 - Level 3 / [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)
 / [Python3](graph/가장%20먼%20노드.py)
+- Level 3 / [순위](https://programmers.co.kr/learn/courses/30/lessons/49191)
+/ [Python3](graph/순위.py)
+<!--
+- Level 4 / [순위](https://programmers.co.kr/learn/courses/30/lessons/49191)
+/ [Python3](graph/순위.py)
+- Level 5 / [순위](https://programmers.co.kr/learn/courses/30/lessons/49191)
+/ [Python3](graph/순위.py)
+-->
+
+## Dijkstra
+[다익스트라 알고리즘](https://m.blog.naver.com/ndb796/221234424646)은 하나의 정점에서 출발했을 때 다른 모든 정점으로의 최단 경로를 구하는 알고리즘이다. 다이나믹 프로그래밍을 바탕으로 한다.
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/DijkstraDemo.gif/330px-DijkstraDemo.gif)
+
+1. 출발 노드를 설정한다.
+2. 출발 노드를 기준으로 각 노드의 최소 비용을 저장한다.
+3. 방문하지 않은 노드 중에서 가장 비용이 적은 노드를 선택한다.
+4. 해당 노드를 거쳐 특정한 노드로 가는 경우를 고려하여 최소 비용을 갱신한다.
+5. 3-4번을 반복한다.
+
+```
+ 1  function Dijkstra(Graph, source):
+ 2
+ 3      create vertex set Q
+ 4
+ 5      for each vertex v in Graph:             
+ 6          dist[v] ← INFINITY                  
+ 7          prev[v] ← UNDEFINED                 
+ 8          add v to Q                      
+10      dist[source] ← 0                        
+11      
+12      while Q is not empty:
+13          u ← vertex in Q with min dist[u]    
+14                                              
+15          remove u from Q 
+16          
+17          for each neighbor v of u:           // only v that are still in Q
+18              alt ← dist[u] + length(u, v)
+19              if alt < dist[v]:               
+20                  dist[v] ← alt 
+21                  prev[v] ← u 
+22
+23      return dist[], prev[]
+```
+
+## Floyd-Warshall algorithm
+[플로이드 알고리즘](https://m.blog.naver.com/PostView.nhn?blogId=ndb796&logNo=221234427842&proxyReferer=https:%2F%2Fwww.google.com%2F)은 모든 정점에서 모든 정점으로의 최단 경로를 구하는 알고리즘이다. 다이나믹 프로그래밍을 바탕으로 한다.
+
+1. 아무것도 거치지 않았을 때 각 정점-다른 정점의 경로를 2차원 배열에 저장한다.
+2. 한 노드를 반드시 거쳤을 때 경로 길이를 기존 값과 비교해 최솟값을 업데이트 한다.
+3. 나머지 노드를 기준으로 똑같이 수행한ㅍ다.
+
+```
+shortestPath(i,j,k)=
+    min(shortestPath(i,j,k-1),
+        shortestPath(i,k,k-1) + shortestPath(k,j,k-1))
+```
+
+```
+let dist be a |V| × |V| array of minimum distances initialized to ∞ (infinity)
+for each edge (u, v) do
+    dist[u][v] ← w(u, v)  // The weight of the edge (u, v)
+for each vertex v do
+    dist[v][v] ← 0
+for k from 1 to |V|
+    for i from 1 to |V|
+        for j from 1 to |V|
+            if dist[i][j] > dist[i][k] + dist[k][j] 
+                dist[i][j] ← dist[i][k] + dist[k][j]
+            end if
+```
