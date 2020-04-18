@@ -7,18 +7,19 @@ _출처: [프로그래머스 코딩 테스트 연습](https://programmers.co.kr/
 - 코딩 테스트 연습에 공개된 문제가 아닌, 기업 입사 코딩 테스트 등에 나온 문제는 법적 문제상 올리면 안된다. [(출처)](https://programmers.zendesk.com/hc/ko/articles/360034546572-프로그래머스의-알고리즘-문제-풀이를-개인-블로그-깃헙-기타-사이트에-올려도-되나요-)
 - [Java Stream을 이용한 함수형 프로그래밍](functional_programming.md)
 
-## 해시 맵(Hash Map)
+## Map
 |언어|객체|설명|
 |---:|---|---|
 |Python3|dict|built-in type|
 |Java|Map, HashMap,<br>TreeMap, LinkedHashMap|Time complexity와 iteration Order 차이<br>(전화번호 목록.java 참고)|
 
+### 요약
 - Hash: string이나 다른 object를 int 정수 코드로 변환
 - Map: Key: Value 형태의 Set, Key는 unique하며 str이 가능
 - get()/put()이 O(1)로 수렴하여 빠르게 탐색 가능
 - str, tuple 등 여러 타입의 Key로 value를 불러올 수 있음
 
-문제 풀이
+### 문제 풀이
 - Level 1 / [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)
 / [Python3](hash/완주하지%20못한%20선수.py)
 / [Java](hash/완주하지%20못한%20선수.java)
@@ -33,14 +34,23 @@ _출처: [프로그래머스 코딩 테스트 연습](https://programmers.co.kr/
 / [Java](hash/베스트앨범.java)
 
 
+## Set
+|언어|객체|설명|
+|---:|---|---|
+|Python3|set|built-in type|
+|Java|Set, HashSet||
+
+순서가 없으며 고유한 값이 저장되는 자료구조
+
+
 ## Trie
 ![Trie Image](https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Trie_example.svg/375px-Trie_example.svg.png)
 
-요약
+### 요약
 - 문자열 검색에 특화된 자료 구조
 - Trie를 안쓴다면 하나하나 찾아서 비교해야 한다.
 
-참고
+### 참고
 - https://en.wikipedia.org/wiki/Trie
 - https://brunch.co.kr/@springboot/75
 
@@ -48,26 +58,38 @@ _출처: [프로그래머스 코딩 테스트 연습](https://programmers.co.kr/
 트리(Tree)는 정점과 간선으로 구성되는 계층 관계를 나타내는 자료 구조다. 가장 상위 노드는 루트(root), 가장 하위 노드는 리프(leaf)라고 부른다. 트라이도 트리의 한 종류다.
 
 ### 트라이(Trie)
-트라이(Trie)는 보통 Prefix Tree, Digital Search Tree, Retrival(되찾다) Tree 로 불린다. 트라이는 retrieval에서 따왔다. 트라이는 문자열 Key로 사용하는 동적인 Set을 저장하는 확장 트리 자료구조다. 쉽게 말해 springboot를 찾기 위해 s를 찾고, 그 다음에 p, r, ... 순서로 가는 구조다.
+트라이(Trie)는 보통 Prefix Tree, Digital Search Tree, Retrival Tree 로 불린다. 트라이는 retrieval에서 따왔다. 트라이는 문자열 Key로 사용하는 동적인 Set을 저장하는 확장 트리 자료구조다. 쉽게 말해 springboot를 찾기 위해 s를 찾고, 그 다음에 p, r, ... 순서로 가는 구조다.
 
 전화번호_목록.py를 참고하자.
 
 
 ## 스택/큐(Stack/Queue)
-- Stack: LIFO(Last Input First Output)
-- Queue: FIFO(first Input First Output)
-- 리스트(ordered)의 입구/출구를 정하여 수행할 데이터의 순서를 명확하게 지정하여 불필요한 계산 과정을 줄일 수 있다. 예컨대 함수 실행 처리를 Stack 대신 Queue를 이용한다면, 매번 각 함수 처리 전 하위 함수 처리가 완료되었는지 따져야 한다. 
-- 대개 Insert(push) / Delete(pop, shift)를 사용한다.
-- 메모리와 스케줄링 등의 예시가 있으며, DFS, BFS 등 그래프 자료형의 기본 개념이 된다.
-- Deque는 stack과 queue를 합친 형태다. Python에서는 deque 라이브러리를 제공한다.
+### 요약
+    Stack: LIFO(Last Input First Output)
+    Queue: FIFO(first Input First Output)
 
-참고
-- [Python Stack/Queue Example](https://docs.python.org/3/tutorial/datastructures.html?highlight=list#using-lists-as-queues)
-- [스택_큐 개념](https://mygumi.tistory.com/357)
+수행할 데이터의 순서를 명확하게 지정하여 불필요한 계산 과정을 줄일 수 있다. 예컨대 함수 실행 처리를 Stack 대신 Queue를 이용한다면, 매번 각 함수 처리 전 하위 함수 처리가 완료되었는지 따져야 한다.
 
-문제풀이
+스택/큐의 대표 예시로 메모리와 스케줄링이 있다.
+
+Deque는 stack과 queue를 합친 형태다.
+
+### Stack
+|언어|객체|설명|
+|---:|---|---|
+|Python3|list|built-in type|
+|Java|Stack|java.util|
+
+### Queue
+|언어|객체|설명|
+|---:|---|---|
+|Python3|deque|collections|
+|Java| | |
+
+### 문제 풀이
 - Level 2 / [탑](https://programmers.co.kr/learn/courses/30/lessons/42588)
 / [Python3](stack_queue/탑.py)
+/ [Java](stack_queue/탑.java)
 - Level 2 / [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)
 / [Python3](stack_queue/다리를%20지나는%20트럭.py)
 - Level 2 / [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
@@ -79,6 +101,10 @@ _출처: [프로그래머스 코딩 테스트 연습](https://programmers.co.kr/
 - Level 2 / [주식개발](https://programmers.co.kr/learn/courses/30/lessons/42584)
 / [Python3](stack_queue/주식개발.py)
 
+### 참고
+- [Python Stack/Queue Example](https://docs.python.org/3/tutorial/datastructures.html?highlight=list#using-lists-as-queues)
+- [스택_큐 개념](https://mygumi.tistory.com/357)
+
 
 ## 힙(Heap)
 ![heap example](../../imgs/heap_example.png)
@@ -89,11 +115,11 @@ _출처: [프로그래머스 코딩 테스트 연습](https://programmers.co.kr/
 - 우선순위 큐(Priority Queue)를 실질적으로 구현
 https://hannom.tistory.com/36
 
-출처
+### 출처
 - https://ko.wikipedia.org/wiki/힙_(자료_구조)
 - https://docs.python.org/3.7/library/heapq.html
 
-문제 풀이
+### 문제 풀이
 - Level 2 / [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
 / [Python3](heap/더%20맵게.py)
 - Level 2 / [라면공장](https://programmers.co.kr/learn/courses/30/lessons/42629)
@@ -111,11 +137,11 @@ https://hannom.tistory.com/36
 - Non-comparision Sort도 있으며 특정 조건이 필요한 걸로 보인다.
 - compare 함수를 이용한 방법이 명확하게 풀이할 수 있다. (예. 가장 큰 수)
 
-참고
+### 참고
 - https://en.wikipedia.org/wiki/Sorting_algorithm
 - [파이썬 정렬 사용](https://docs.python.org/ko/3/howto/sorting.html)
 
-문제 풀이
+### 문제 풀이
 - Level 1 / [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)
 / [Python3](sort/k번째수.py)
 - Level 2 / [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)
@@ -133,11 +159,11 @@ https://hannom.tistory.com/36
 - 목표에 특정 패턴이 없어 효율적인 방법을 찾을 수 없다면 완전탐색을 하자...
 <br>예. '소수찾기' 문제: 수를 조합하기 전에 어떤 패턴으로 소수를 만들 수 있는지 알 수 없음. 일일이 다 만들어보며 소수인지 검사해야 함.
 
-참고
+### 참고
 - https://en.wikipedia.org/wiki/Brute-force_search
 - https://en.wikipedia.org/wiki/Heuristic_(computer_science)
 
-문제 풀이
+### 문제 풀이
 - Level 1 / [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
 / [Python3](brute_force_search/모의고사.py)
 - Level 2 / [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
@@ -159,7 +185,7 @@ https://hannom.tistory.com/36
     (저울 문제 참고)
 - Kruskal's Algorithm, Prim's Algorithm (섬 연결하기 문제 참고)
 
-참고
+### 참고
 - https://en.wikipedia.org/wiki/Greedy_algorithm
 
 문제 풀이
@@ -190,11 +216,11 @@ https://hannom.tistory.com/36
     - 코드는 간단해보여도 대부분 시간 효율성이 안좋거나 depth limit에 걸린다.
 - 길찾기 탐색 방향을 정방향/역방향으로 할지 고민해봐야 한다(예. 카드 게임)
 
-참고
+### 참고
 - https://ko.wikipedia.org/wiki/동적_계획법
 - https://www.zerocho.com/category/Algorithm/post/584b979a580277001862f182
 
-문제 풀이
+### 문제 풀이
 - Level 3 / [N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895)
 / [Python3](dynamic_programming/N으로%20표현.py)
 - Level (1 같은) 3 / 타일 장식물](https://programmers.co.kr/learn/courses/30/lessons/43104)
@@ -232,12 +258,12 @@ https://hannom.tistory.com/36
 - 두 노드 사이의 (최단) 경로 찾기에 이용(DFS는 모든 관계 탐색을 해야 한다)
 - 재귀 탐색이 불가능하며 Queue 사용
 
-참고
+### 참고
 - https://yunyoung1819.tistory.com/86
 - https://en.wikipedia.org/wiki/Depth-first_search
 - https://en.wikipedia.org/wiki/Breadth-first_search
 
-문제 풀이
+### 문제 풀이
 - Level 2 / [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)
 / [Python3](dfs_bfs/타겟%20넘버.py)
 - Level 3 / [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)
@@ -254,10 +280,10 @@ https://hannom.tistory.com/36
 - middle 값이 목표값보다 클 경우 `start = middle +1`, 작으면 `end = middle -1` 로 설정한다.
 - `start > end` 될 때까지 반복하면 원하는 값을 찾는다.
 
-참고
+### 참고
 - https://wootool.tistory.com/62
 
-문제 풀이
+### 문제 풀이
 - Level 3 / [예산](https://programmers.co.kr/learn/courses/30/lessons/43237)
 / [Python3](binary_search/예산.py)
 - Level 3 / [입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238)
@@ -269,15 +295,17 @@ https://hannom.tistory.com/36
 ## 그래프(Graph)
 - Graph: 정점과 간선으로 이뤄진 자료구조 / G = (V, E)
 - collections 모듈의 defaultdict를 사용하면 그래프 생성 초기화를 빠르게 할 수 있다.
+- Cycle: 시작과 끝 vertex가 동일하면서 중간에 2개 이상의 다른 vertex를 포함하는 path(walk, trail). 중간에 1개 vertex가 있는 건 그냥 edge 하나이므로
+- Cyclic/Acylic Graph: cycle을 1개 이상 포함하는/포함하지 않는 그래프
 
-문제 풀이
+### 문제 풀이
 - Level 3 / [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)
 / [Python3](graph/가장%20먼%20노드.py)
 - Level 3 / [순위](https://programmers.co.kr/learn/courses/30/lessons/49191)
 / [Python3](graph/순위.py)
 <!--
-- Level 4 / [순위](https://programmers.co.kr/learn/courses/30/lessons/49191)
-/ [Python3](graph/순위.py)
+- Level 4 / [사이클 제거](https://programmers.co.kr/learn/courses/30/lessons/49188)
+/ [Java](graph/사이클%20제거.java)
 - Level 5 / [순위](https://programmers.co.kr/learn/courses/30/lessons/49191)
 / [Python3](graph/순위.py)
 -->
@@ -336,7 +364,7 @@ let dist be a |V| × |V| array of minimum distances initialized to ∞ (infinity
 for each edge (u, v) do
     dist[u][v] ← w(u, v)  // The weight of the edge (u, v)
 for each vertex v do
-    dist[v][v] ← 0
+    dist[v][v] ← 0ㅍ
 for k from 1 to |V|
     for i from 1 to |V|
         for j from 1 to |V|

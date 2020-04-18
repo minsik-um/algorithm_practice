@@ -1,3 +1,5 @@
+package algorithm_data_structure.hash;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
