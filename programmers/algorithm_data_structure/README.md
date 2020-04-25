@@ -8,10 +8,10 @@ _출처: [프로그래머스 코딩 테스트 연습](https://programmers.co.kr/
 - [Java Stream을 이용한 함수형 프로그래밍](functional_programming.md)
 
 ## Map
-|언어|객체|설명|
-|---:|---|---|
-|Python3|dict|built-in type|
-|Java|Map, HashMap,<br>TreeMap, LinkedHashMap|Time complexity와 iteration Order 차이<br>(전화번호 목록.java 참고)|
+|언어|인터페이스|객체|라이브러리|설명|
+|---:|---|---|---|---|
+|Python3||dict<br>defaultdict|built-in type<br>collections||
+|Java|Map|HashMap<br>TreeMap<br>LinkedHashMap|java.util|Time complexity와 iteration Order 차이<br>(전화번호 목록.java 참고)|
 
 ### 요약
 - Hash: string이나 다른 object를 int 정수 코드로 변환
@@ -35,10 +35,10 @@ _출처: [프로그래머스 코딩 테스트 연습](https://programmers.co.kr/
 
 
 ## Set
-|언어|객체|설명|
-|---:|---|---|
-|Python3|set|built-in type|
-|Java|Set, HashSet||
+|언어|인터페이스|객체|라이브러리|
+|---:|---|---|---|
+|Python3||set|built-in type|
+|Java|Set|HashSet|java.util|
 
 순서가 없으며 고유한 값이 저장되는 자료구조
 
@@ -75,16 +75,16 @@ _출처: [프로그래머스 코딩 테스트 연습](https://programmers.co.kr/
 Deque는 stack과 queue를 합친 형태다.
 
 ### Stack
-|언어|객체|설명|
-|---:|---|---|
-|Python3|list|built-in type|
-|Java|Stack|java.util|
+|언어|인터페이스|객체|라이브러리|
+|---:|---|---|---|
+|Python3||list|built-in type|
+|Java||Stack|java.util|
 
 ### Queue
-|언어|객체|설명|
-|---:|---|---|
-|Python3|deque|collections|
-|Java| | |
+|언어|인터페이스|객체|라이브러리|
+|---:|---|---|---|
+|Python3||deque|collections|
+|Java|Queue|LinkedList<br>PriorityQueue|java.util|
 
 ### 문제 풀이
 - Level 2 / [탑](https://programmers.co.kr/learn/courses/30/lessons/42588)
@@ -92,6 +92,7 @@ Deque는 stack과 queue를 합친 형태다.
 / [Java](stack_queue/탑.java)
 - Level 2 / [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)
 / [Python3](stack_queue/다리를%20지나는%20트럭.py)
+/ [Java](stack_queue/다리를_지나는_트럭.java)
 - Level 2 / [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
 / [Python3](stack_queue/기능개발.py)
 - Level 2 / [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)
