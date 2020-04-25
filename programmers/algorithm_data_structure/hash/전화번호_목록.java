@@ -1,3 +1,5 @@
+package algorithm_data_structure.hash;
+
 import java.util.*;
 
 class 전화번호_목록 {
