@@ -294,22 +294,33 @@ https://hannom.tistory.com/36
 
 
 ## 그래프(Graph)
+
+|구현 개념|설명|
+|---|---|
+|`map<node, Set<nextNode>>`|연속된 흐름을 타며 처리할 때 사용|
+|`List<Edge<node, node>>`|크루스칼 알고리즘 등에 사용하기 좋음|
+
+|언어|인터페이스|객체|라이브러리|설명|
+|---:|---|---|---|---|
+|Python3||dict<br>defaultdict<br>set|built-in type|여러 타입을 조합하여 그래프 구현|
+|Java|||||
+
 - Graph: 정점과 간선으로 이뤄진 자료구조 / G = (V, E)
-- collections 모듈의 defaultdict를 사용하면 그래프 생성 초기화를 빠르게 할 수 있다.
-- Cycle: 시작과 끝 vertex가 동일하면서 중간에 2개 이상의 다른 vertex를 포함하는 path(walk, trail). 중간에 1개 vertex가 있는 건 그냥 edge 하나이므로
-- Cyclic/Acylic Graph: cycle을 1개 이상 포함하는/포함하지 않는 그래프
+- Cycle: 시작과 끝 vertex가 동일하면서 중간에 2개 이상의 제각각 다른 vertex를 포함하는 path
+- Tree : acuclic graph : cycle를 포함하지 않는 그래프
+- Spanning Tree : undirected Graph의 모든 점을 포함하면서 최소한의 간선 수로 모든 점을 연결한 트리 (서브 그래프)
+- 스패닝 트리는 (노드 수) = (엣지 수) + 1 을 만족한다.               
+- Minimum Spanning Tree(MST) : 비용의 합이 가장 최소인 스패닝 트리
 
 ### 문제 풀이
 - Level 3 / [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)
 / [Python3](graph/가장%20먼%20노드.py)
 - Level 3 / [순위](https://programmers.co.kr/learn/courses/30/lessons/49191)
 / [Python3](graph/순위.py)
-<!--
 - Level 4 / [사이클 제거](https://programmers.co.kr/learn/courses/30/lessons/49188)
 / [Java](graph/사이클%20제거.java)
-- Level 5 / [순위](https://programmers.co.kr/learn/courses/30/lessons/49191)
-/ [Python3](graph/순위.py)
--->
+- Level 5 / [방의 개수](https://programmers.co.kr/learn/courses/30/lessons/49190)
+/ [Python3](graph/방의%20개수.py)
 
 ## Dijkstra
 [다익스트라 알고리즘](https://m.blog.naver.com/ndb796/221234424646)은 하나의 정점에서 출발했을 때 다른 모든 정점으로의 최단 경로를 구하는 알고리즘이다. 다이나믹 프로그래밍을 바탕으로 한다.
