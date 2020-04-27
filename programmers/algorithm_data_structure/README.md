@@ -95,6 +95,7 @@ Deque는 stack과 queue를 합친 형태다.
 / [Java](stack_queue/다리를_지나는_트럭.java)
 - Level 2 / [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
 / [Python3](stack_queue/기능개발.py)
+/ [Java](stack_queue/기능개발.java)
 - Level 2 / [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)
 / [Python3](stack_queue/프린터.py)
 - Level 2 / [쇠막대기](https://programmers.co.kr/learn/courses/30/lessons/42585)
@@ -384,3 +385,6 @@ for k from 1 to |V|
                 dist[i][j] ← dist[i][k] + dist[k][j]
             end if
 ```
+
+## A*(a-star) 알고리즘
+(추가 예정)
