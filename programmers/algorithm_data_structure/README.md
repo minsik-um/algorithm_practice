@@ -98,6 +98,7 @@ Deque는 stack과 queue를 합친 형태다.
 / [Java](stack_queue/기능개발.java)
 - Level 2 / [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)
 / [Python3](stack_queue/프린터.py)
+/ [Java](stack_queue/프린터.java)
 - Level 2 / [쇠막대기](https://programmers.co.kr/learn/courses/30/lessons/42585)
 / [Python3](stack_queue/쇠막대기.py)
 - Level 2 / [주식개발](https://programmers.co.kr/learn/courses/30/lessons/42584)
