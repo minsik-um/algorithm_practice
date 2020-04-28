@@ -4,24 +4,6 @@ import java.util.*;
 
 public class 프린터 {
 
-    class Document {
-        private int priority;
-        private int initialLocation;
-
-        public Document(int priority, int location){
-            this.priority = priority;
-            this.initialLocation = location;
-        }
-
-        public int getPriority(){
-            return priority;
-        }
-
-        public int getInitialLocation(){
-            return initialLocation;
-        }
-    }
-
     /*
      * 아래 다른 사람 코드를 학습하여 개선한 코드
      * var는 애매하거나 복잡할 때만 사용하고
@@ -29,38 +11,42 @@ public class 프린터 {
      */
     public int myBetterSolution(int[] priorities, int location) {
         int answer = 0;
-        int lastIdx = priorities.length - 1;
-        boolean targetIsPrinted = false;
+        int targetCurrentLocation = location;
+        int[] sortedPriorities = null;
+        Queue<Integer> documents = null;
 
         // 우선순위 값 기준으로 우선순위 정렬
-        int[] sortedPriorities = Arrays.stream(priorities).toArray();
+        // 아래 방법으로 하면 deep copy가 된다.
+        sortedPriorities = Arrays.stream(priorities).toArray();
         Arrays.sort(sortedPriorities);        
 
         // 초기 문서 위치를 포함하여 우선순위 저장
-        Queue<Document> documents = new LinkedList<>();
-        for (int i = 0; i < priorities.length; i++){
-            documents.add(new Document(priorities[i], i));
+        documents = new LinkedList<>();
+        for (int priority : priorities){
+            documents.add(priority);
         }
 
         // 가장 큰 우선순위 값과 일치하면 인쇄
         while (!documents.isEmpty()){
-            if (documents.peek().getPriority() == sortedPriorities[lastIdx-answer]){
+            final int document = documents.poll();
+            if (document == sortedPriorities[priorities.length - 1 - answer]){
                 answer += 1;
-                Document print = documents.poll();
-                if (print.getInitialLocation() == location){
-                    targetIsPrinted = true;
-                    break;
+                if (targetCurrentLocation == 0){
+                    return answer;
                 }
             }else{
-                documents.add(documents.poll());
+                documents.add(document);
+            }
+
+            if (targetCurrentLocation == 0){
+                targetCurrentLocation = documents.size() - 1;
+            }else{
+                targetCurrentLocation -= 1;
             }
         }
 
-        if (! targetIsPrinted){
-            throw new IllegalArgumentException();
-        }
-        
-        return answer;
+        // 출력하지 못했는데 while문을 빠져 나온 경우
+        throw new IllegalArgumentException();      
     }
 
     /*
@@ -69,7 +55,7 @@ public class 프린터 {
     public int mySolution(int[] priorities, int location) {
         int answer = 0;
 
-        // 내림차 순으로 우선순위 정렬
+        // 내림차 순으로 우선순위 정렬, deep copy
         var sortedPriorities = new LinkedList<Integer>();
         for (int priority : priorities){
             sortedPriorities.add(priority);
@@ -97,6 +83,24 @@ public class 프린터 {
         }
 
         return answer;
+    }
+
+    class Document {
+        private int priority;
+        private int initialLocation;
+
+        public Document(int priority, int location){
+            this.priority = priority;
+            this.initialLocation = location;
+        }
+
+        public int getPriority(){
+            return priority;
+        }
+
+        public int getInitialLocation(){
+            return initialLocation;
+        }
     }
 
     /*
