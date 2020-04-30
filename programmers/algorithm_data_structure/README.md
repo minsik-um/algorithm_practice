@@ -68,11 +68,13 @@ _출처: [프로그래머스 코딩 테스트 연습](https://programmers.co.kr/
     Stack: LIFO(Last Input First Output)
     Queue: FIFO(first Input First Output)
 
-수행할 데이터의 순서를 명확하게 지정하여 불필요한 계산 과정을 줄일 수 있다. 예컨대 함수 실행 처리를 Stack 대신 Queue를 이용한다면, 매번 각 함수 처리 전 하위 함수 처리가 완료되었는지 따져야 한다. 또한 스택/큐에 규칙성을 가지게 넣어놓고 끝점으로만 처리를 해나가면 반복되는 검사량을 줄일 수 있다. (탑 문제 참고)
+수행할 데이터의 순서를 명확하게 지정하여 불필요한 계산 과정을 줄일 수 있다. 예컨대 함수 실행 처리를 Stack 대신 Queue를 이용한다면, 매번 각 함수 처리 전 하위 함수 처리가 완료되었는지 따져야 한다.
+
+스택/큐에 규칙성을 가지게 넣어놓고 끝점으로만 처리를 해나가면 반복되는 검사량을 줄일 수 있다. (탑, 주식가격 문제 참고)
 
 스택/큐의 대표 예시로 메모리와 스케줄링이 있다.
 
-Deque는 stack과 queue를 합친 형태다.
+Deque는 stack과 queue를 모두 이용하도록 합친 형태다.
 
 ### Stack
 |언어|인터페이스|객체|라이브러리|
@@ -101,8 +103,10 @@ Deque는 stack과 queue를 합친 형태다.
 / [Java](stack_queue/프린터.java)
 - Level 2 / [쇠막대기](https://programmers.co.kr/learn/courses/30/lessons/42585)
 / [Python3](stack_queue/쇠막대기.py)
+/ [Java](stack_queue/쇠막대기.java)
 - Level 2 / [주식개발](https://programmers.co.kr/learn/courses/30/lessons/42584)
 / [Python3](stack_queue/주식개발.py)
+/ [Java](stack_queue/주식개발.java)
 
 ### 참고
 - [Python Stack/Queue Example](https://docs.python.org/3/tutorial/datastructures.html?highlight=list#using-lists-as-queues)
