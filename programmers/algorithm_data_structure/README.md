@@ -114,21 +114,25 @@ Deque는 stack과 queue를 모두 이용하도록 합친 형태다.
 
 
 ## 힙(Heap)
+|언어|인터페이스|객체|라이브러리|
+|---:|---|---|---|
+|Python3||heapq|collections|
+|Java|PriorityQueue|ProrityQueue|java.util|
 ![heap example](../../imgs/heap_example.png)
 
 - A가 B의 부모노드(parent node) 이면, A의 키(key)값과 B의 키값 사이에는 대소관계가 성립하는 완전이진트리
 - Heap Property를 만족하는 Complete Binary Tree. **유동적인 리스트에서 최댓값/최솟값을 빠르게 찾기 위함.** root node로 올수록 클 경우 max-heap, 작으면 min-heap이다.
+- 라이브러리가 제공하는 힙은 기본 min-heap이다.
 - 두 개를 합쳐 최대/최소값 접근을 O(1)로 하는 min-max heap도 있다. 아종으로 symmetric min-max heap이 있다. 간단한 문제라면 - 이중우선순위큐 문제 참고 - heap 2개를 이용하여 유사 min-max heap을 만들 수 있다.
-- 우선순위 큐(Priority Queue)를 실질적으로 구현
-https://hannom.tistory.com/36
 
-### 출처
+### 참고
 - https://ko.wikipedia.org/wiki/힙_(자료_구조)
 - https://docs.python.org/3.7/library/heapq.html
 
 ### 문제 풀이
 - Level 2 / [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
 / [Python3](heap/더%20맵게.py)
+/ [Java](heap/더_맵게.java)
 - Level 2 / [라면공장](https://programmers.co.kr/learn/courses/30/lessons/42629)
 / [Python3](heap/라면공장.py)
 - Level 3 / [디스크 콘트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)
