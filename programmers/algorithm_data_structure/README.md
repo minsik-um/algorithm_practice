@@ -114,10 +114,11 @@ Deque는 stack과 queue를 모두 이용하도록 합친 형태다.
 
 
 ## 힙(Heap)
-|언어|인터페이스|객체|라이브러리|
-|---:|---|---|---|
-|Python3||heapq|collections|
-|Java|PriorityQueue|ProrityQueue|java.util|
+|언어|인터페이스|객체|라이브러리|설명|
+|---:|---|---|---|---|
+|Python3||heapq|collections|가장 앞쪽 값 기준으로 min heap 작동|
+|Java|PriorityQueue|ProrityQueue|java.util|Comparator로 기준 지정|
+
 ![heap example](../../imgs/heap_example.png)
 
 - A가 B의 부모노드(parent node) 이면, A의 키(key)값과 B의 키값 사이에는 대소관계가 성립하는 완전이진트리
@@ -135,6 +136,7 @@ Deque는 stack과 queue를 모두 이용하도록 합친 형태다.
 / [Java](heap/더_맵게.java)
 - Level 2 / [라면공장](https://programmers.co.kr/learn/courses/30/lessons/42629)
 / [Python3](heap/라면공장.py)
+/ [Java](heap/라면공장.java)
 - Level 3 / [디스크 콘트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)
 / [Python3](heap/디스크%20콘트롤러.py)
 - Level 3 / [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628)
