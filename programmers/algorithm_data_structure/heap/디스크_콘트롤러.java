@@ -28,7 +28,7 @@ class 디스크_콘트롤러 {
             int requestTime = job[0];
             int processingTime = job[1];
 
-            currTime += ((requestTime > currTime) ? requestTime - currTime : 0) + processingTime;
+            currTime += (Math.max(requestTime - currTime, 0) + processingTime);
             timeSum += (currTime - requestTime);
 
             while (!sortedJobs.isEmpty() && sortedJobs.peek()[0] < currTime) {

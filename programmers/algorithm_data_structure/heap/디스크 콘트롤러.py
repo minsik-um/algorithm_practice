@@ -1,10 +1,6 @@
 import heapq as hq
 from collections import deque
 
-'''
-(다른 답들과 방법은 유사하여 내 풀이만 저장)    
-클래스(속성, 메소드)를 활용하여 가독성을 높인 코드 있었음.
-'''
 
 def my_solution(jobs):
     '''
@@ -22,34 +18,35 @@ def my_solution(jobs):
 
     [주의점]
     * 요청 시간이 각 시점에서 이미 지나야 선택 항목으로 쓸 수 있음
-    * jobs는 정렬되어 있지 않아 시간순으로 정렬 필요
+    * jobs는 정렬되어 있지 않아 시간 + 처리시간 순으로 정렬 필요
     * 작업을 끝냈을 때 다음 작업까지 실행 없이 대기하는 경우 고려
     '''
     answer = 0
     curr_time = 0
-    remain_jobs = deque(sorted(jobs))
-    heap = []
+    sorted_jobs = deque(sorted(jobs))
 
-    # 모든 작업이 대기/완료될 때까지 반복
-    while remain_jobs:    
+    delayed_jobs = []
+
+    # 모든 작업이 완료될 때까지 반복
+    while sorted_jobs or delayed_jobs:
+        # 우선순위에 따라 수행할 작업 선택
+        job = None
+        request_time = None
+        processing_time = None
+
+        if delayed_jobs:
+            job = hq.heappop(delayed_jobs)
+            processing_time, request_time = job
+        else:
+            job = sorted_jobs.popleft()
+            request_time, processing_time = job
+
+        curr_time += max(request_time - curr_time, 0) + processing_time
+        answer += (curr_time - request_time)
+
         # 대기 작업 목록 업데이트
-        while remain_jobs and remain_jobs[0][0] <= curr_time:
-            job = remain_jobs.popleft()
-            hq.heappush(heap, (job[1], job[0]))
-            
-        if heap:
-            # 대기 작업이 있으면 최소 시간 작업 선택해 적용
-            select = hq.heappop(heap)
-            curr_time += select[0]  # 실행한 작업 만큼 시간 이동
-            answer += (curr_time-select[1])
-        elif remain_jobs:
-            # 대기 작업이 없으면 다음 작업 시간으로 이동
-            curr_time = remain_jobs[0][0]
+        while sorted_jobs and sorted_jobs[0][0] < curr_time:
+            job = sorted_jobs.popleft()
+            hq.heappush(delayed_jobs, (job[1], job[0]))
 
-    # 나머지 대기 작업 처리
-    while heap:
-        select = hq.heappop(heap)
-        curr_time += select[0]
-        answer += (curr_time-select[1])
-                            
     return answer // len(jobs)
