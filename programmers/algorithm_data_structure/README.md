@@ -139,6 +139,7 @@ Deque는 stack과 queue를 모두 이용하도록 합친 형태다.
 / [Java](heap/라면공장.java)
 - Level 3 / [디스크 콘트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)
 / [Python3](heap/디스크%20콘트롤러.py)
+/ [Java](heap/디스크_콘트롤러.java)
 - Level 3 / [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628)
 / [Python3](heap/이중우선순위큐.py)
 
