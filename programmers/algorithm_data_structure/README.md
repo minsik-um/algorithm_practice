@@ -158,6 +158,7 @@ Deque는 stack과 queue를 모두 이용하도록 합친 형태다.
 ### 문제 풀이
 - Level 1 / [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)
 / [Python3](sort/k번째수.py)
+/ [Java](sort/k번째수.java)
 - Level 2 / [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)
 / [Python3](sort/가장%20큰%20수.py)
 - Level 2 / [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
