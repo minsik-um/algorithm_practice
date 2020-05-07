@@ -21,6 +21,13 @@ class 가장_큰_수 {
 
     /*
      * (python 풀이법과 동일, 설명을 python 풀이 참고)
+     * 
+     * **추가**
+     * 여기서 MAX_DIGIT_LENGTH로 최댓값을 공통 지정하지 않고
+     * compareTo 함수 내에서 매번
+     * Math.max(s1.length(), s2.length())로 최댓값을 결정해 하면
+     * 오류가 발생한다. 두 수의 local max는 찾겠지만 그게
+     * global max로 이어지지 않는다.
     */
     public String solution2(int[] numbers) {
         String answer = Arrays.stream(numbers)
