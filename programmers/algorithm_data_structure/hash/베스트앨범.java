@@ -89,7 +89,8 @@ public class 베스트앨범 {
          * groupingBy() 지정한 값을 기준으로 값을 모은다 sorted() : 지정한 비교함수로 처리 flatMap : 지정한 함수대로
          * 펼쳐서 한 줄로 나열함 mapToInt : 지정한 수로 변경
          */
-        return IntStream.range(0, genres.length).mapToObj(i -> new Music(genres[i], plays[i], i))
+        return IntStream.range(0, genres.length)
+                .mapToObj(i -> new Music(genres[i], plays[i], i))
                 .collect(Collectors.groupingBy(Music::getGenre)).entrySet().stream()
                 .sorted((a, b) -> sum(b.getValue()) - sum(a.getValue()))
                 .flatMap(x -> x.getValue().stream().sorted().limit(2)).mapToInt(x -> x.id).toArray();
