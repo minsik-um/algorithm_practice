@@ -144,6 +144,7 @@ Deque는 stack과 queue를 모두 이용하도록 합친 형태다.
 / [Python3](heap/이중우선순위큐.py)
 / [Java](heap/이중우선순위큐.java)
 
+
 ## 정렬(Sort)
 - 컴퓨터 처리 데이터는 양이 매우 많아 search 할 때 많은 시간이 소요된다.
 - 정렬을 해두면 이진 탐색(logn) 등 빠른 탐색이 가능하다.
@@ -164,6 +165,7 @@ Deque는 stack과 queue를 모두 이용하도록 합친 형태다.
 / [Java](sort/가장_큰_수.java)
 - Level 2 / [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
 / [Python3](sort/h-index.py)
+/ [Java](sort/h_index.java)
 
 
 ## 완전탐색(Brute-force Search)
