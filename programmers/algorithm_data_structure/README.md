@@ -187,6 +187,7 @@ Deque는 stack과 queue를 모두 이용하도록 합친 형태다.
 / [Java](brute_force_search/모의고사.java)
 - Level 2 / [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
 / [Python3](brute_force_search/소수%20찾기.py)
+/ [Java](brute_force_search/소수_찾기.java)
 - Level 2 / [숫자 야구](https://programmers.co.kr/learn/courses/30/lessons/42841)
 / [Python3](brute_force_search/숫자%20야구.py)
 - Level 2 / [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842?language=python3)
