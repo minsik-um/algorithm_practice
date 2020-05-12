@@ -1,24 +1,15 @@
 
-def my_solution(brown, red):
+def my_solution(brown, yellow):    
     '''
-    가능한 red width/height를 탐색하며
-    brown 개수 조건을 만족하는지 확인
-    i: width
+    (자바 버전 풀이 참고)
+    아래 코드는 자바 버전 풀이와 달리
+    yellow 를 기준으로 탐색해간다.
     '''
-    for i in range(1,red+1):
-        red_w, red_h = i, red//i
-        if red_w * red_h == red and red_w >= red_h:
-            if red_w*2 + red_h*2 + 4 == brown:            
-                return [red_w + 2, red_h + 2]
-                    
-    return None
+    for yellow_w in reversed(range(int(yellow**0.5), yellow+1)):
+        yellow_h = yellow / yellow_w
+        width, height = yellow_w + 2, yellow_h + 2
 
-def best_solution(brown, red):
-    '''
-    widht/height 탐색 기준점을 red**(1/2)로 지정하여
-    탐색 범위 축소 및 조건문 1개 줄였음
-    '''
-    for i in range(1, int(red**(1/2))+1):
-        if red % i == 0:
-            if 2*(i + red//i) == brown-4:
-                return [red//i+2, i+2]
+        if width * height == brown + yellow: 
+            return [width, height]
+
+    return None

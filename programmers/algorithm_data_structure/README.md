@@ -193,6 +193,7 @@ Deque는 stack과 queue를 모두 이용하도록 합친 형태다.
 / [Java](brute_force_search/숫자_야구.java)
 - Level 2 / [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842?language=python3)
 / [Python3](brute_force_search/카펫.py)
+/ [Java](brute_force_search/카펫.java)
 
 
 ## 탐욕법(Greedy Algorithm)
