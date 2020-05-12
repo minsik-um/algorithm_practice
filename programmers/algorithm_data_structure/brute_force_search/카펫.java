@@ -21,8 +21,9 @@ public class 카펫 {
         int[] answer = {};
         int area = brown + yellow;
         int maxWidth = area / 3;  // 3은 height의 최소 길이
+        int minWidth = (int) Math.sqrt(yellow);
 
-        for(int width = maxWidth; width >= 3; width--){
+        for(int width = maxWidth; width >= minWidth; width--){
             int height = area / width;
             int yellowArea = (width - 2) * (height - 2);
 
