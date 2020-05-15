@@ -1,7 +1,5 @@
 package algorithm_data_structure.greedy;
 
-import java.util.HashSet;
-import java.util.Set;
 
 public class 체육복 {
     
