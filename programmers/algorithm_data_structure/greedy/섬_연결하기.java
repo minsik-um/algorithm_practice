@@ -11,14 +11,12 @@ public class 섬_연결하기 {
      * 크루스칼 알고리즘(+ find-union) 사용 풀이
      * find-union 방법 : https://gmlwjd9405.github.io/2018/08/31/algorithm-union-find.html
      * 
-     * '검사 안하는 대신 모든 costs 실행'과 '매번 모두 연결되었는지 확인하고 break' 
-     * 모든 costs 실행을 볼 필요는 없다. 하지만 검사하는 건 매번 n만큼 해야 한다.
-     * 
-     * n 과 costs 크기 차이에 따라 방법을 선택하면 된다.
-     * (매번 검사하는 코드는 python에 있음)
+     * 최소 비용의 필요 조건은 최소 연결이므로
+     * 연결 노드 수가 n-1개가 되면 수행 종료 
      */
     public int mySolution1(int n, int[][] costs) {
         int answer = 0;
+        int connectCount = 0;
         int[] root = new int[n];
         int[] level = new int[n];
 
@@ -36,6 +34,11 @@ public class 섬_연결하기 {
             if (find(cost[0], root) != find(cost[1], root)) {
                 union(cost[0], cost[1], root, level);
                 answer += cost[2];
+                connectCount += 1;
+            }
+
+            if (connectCount == n-1) {
+                break;
             }
         }
         
