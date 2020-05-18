@@ -228,8 +228,10 @@ Deque는 stack과 queue를 모두 이용하도록 합친 형태다.
 / [Java](greedy/섬_연결하기.java)
 - Level 3 / [단속카메라](https://programmers.co.kr/learn/courses/30/lessons/42884)
 / [Python3](greedy/단속카메라.py)
+/ [Java](greedy/단속카메라.java)
 - Level 3 / [저울](https://programmers.co.kr/learn/courses/30/lessons/42886)
 / [Python3](greedy/저울.py)
+/ [Java](greedy/저울.java)
 
 
 ## 동적계획법(Dynamic Programming)
