@@ -252,6 +252,7 @@ Deque는 stack과 queue를 모두 이용하도록 합친 형태다.
 ### 문제 풀이
 - Level 3 / [N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895)
 / [Python3](dynamic_programming/N으로%20표현.py)
+/ [Java](dynamic_programming/N으로_표현.java)
 - Level (1 같은) 3 / 타일 장식물](https://programmers.co.kr/learn/courses/30/lessons/43104)
 / [Python3](dynamic_programming/타일%20장식물.py)
 - Level 3 / [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105)
