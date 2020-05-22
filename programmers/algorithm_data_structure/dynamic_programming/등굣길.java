@@ -47,9 +47,15 @@ class 등굣길 {
 
     public int mySolution2(int m, int n, int[][] puddles) {
         int[][] dp = new int[m+1][n+1];
-        Visit[][] visited = new Visit[m+1][n+1];  // 0: not visit, 1 : visiting, 2: visited
+        Visit[][] visited = new Visit[m+1][n+1];
         List<int[]> currNodes = new LinkedList<>();
         List<int[]> newNodes = null;
+
+        for (int i = 0; i < visited.length; i++){
+            for (int j = 0; j < visited[i].length; j++){
+                visited[i][j] = Visit.NOT_VISITED;
+            }
+        }
 
         // 시작지점 방문
         currNodes.add(new int[]{1, 1});
