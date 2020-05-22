@@ -54,8 +54,8 @@ class 조이스틱 {
 
     public int mySolution2(String name) {
         int upDownSum = 0;
-        int leftRightSum = 0;        
-        List<Series> aSeries = getASeries(name);  // name 내 연속된 A 문자열 리스트
+        int leftRightSum = 0;   
+        List<Series> seriesGroup = getSeriesGroup(name);  // name 내 연속된 A 문자열 리스트
 
         // up-down 조이스틱 집계
         for (int i = 0; i < name.length(); i++){
@@ -70,11 +70,11 @@ class 조이스틱 {
         }
 
         // left-right 조이스틱 집계
-        if (aSeries.isEmpty()) {
+        if (seriesGroup.isEmpty()) {
             leftRightSum = name.length() - 1;  // 모두 A가 아니면 그냥 순방향 이동
         } else {
             leftRightSum = name.length() * 2;  // 적당히 큰 값으로 초기화
-            for (Series series : aSeries) {
+            for (Series series : seriesGroup) {
                 leftRightSum = Math.min(leftRightSum, series.leftRight());
             }
         }
@@ -82,28 +82,27 @@ class 조이스틱 {
         return upDownSum + leftRightSum;
     }
 
-    private List<Series> getASeries(String str){
-        /* 
-        * 정규식을 이용해 연속된 A 문자열 리스트 반환 
-        */
-        LinkedList<Series> aSeries = new LinkedList<>();
+    private List<Series> getSeriesGroup(String str){
+        LinkedList<Series> seriesGroup = new LinkedList<>();
 
         Pattern pattern = Pattern.compile("A+"); 
         Matcher m = pattern.matcher(str);
 
         while (m.find()) {           
-            aSeries.add(new Series(m.start(), m.end()-1, str));
+            seriesGroup.add(new Series(m.start(), m.end()-1, str));
         }
 
         // 마지막과 처음은 연결되었으므로 A가 이어지면 결합
-        if (aSeries.size() >= 2 && aSeries.getLast().isConnectable(aSeries.getFirst())){
-            aSeries.add(aSeries.removeLast().connect(aSeries.removeFirst()));
+        if (seriesGroup.size() >= 2 
+                && seriesGroup.getLast().isConnectable(seriesGroup.getFirst())) {
+            Series connectedSeries = seriesGroup.removeLast().connect(seriesGroup.removeFirst());
+            seriesGroup.add(connectedSeries);
         }
 
-        return aSeries;
+        return seriesGroup;
     }
 
-    private class Series {
+    class Series {
         private int startIdx;      // inclusive
         private int endIdx;        // inclusive
         private int parentLength;
@@ -118,7 +117,7 @@ class 조이스틱 {
                         : ((endIdx + 1) + (this.parentLength - startIdx));
         }
 
-        public boolean isConnectable(Series next) {
+        boolean isConnectable(Series next) {
             return (this.endIdx == this.parentLength - 1) && (next.startIdx == 0);
         }
 
@@ -132,8 +131,9 @@ class 조이스틱 {
             /*
             * 해당 a series를 지나지 않을 때 좌우 이동의 최솟값 반환 
             */
-            int leftRepeat = 0;   // 왼쪽 방향 끝으로 이동하는 횟수 (다음 오른쪽으로 이동)
-            int rightRepeat = 0;  // 오른쪽 방향 끝으로 이동하는 횟수 (다음 왼쪽으로 이동)
+            int leftRepeat = 0;   // T() 왼쪽 끝으로 이동하는 횟수
+            int rightRepeat = 0;  // T() 오른쪽 끝으로 이동하는 횟수
+            int contentLength = (parentLength - length - 1);
 
             if (startIdx <= endIdx) {
                 leftRepeat = (endIdx == parentLength - 1) ? 0 : (parentLength - endIdx + 1);
@@ -143,7 +143,7 @@ class 조이스틱 {
                 rightRepeat = (endIdx + 1);
             }
 
-            return (parentLength - length - 1) + Math.min(length, Math.min(leftRepeat, rightRepeat));
+            return contentLength + Math.min(length, Math.min(leftRepeat, rightRepeat));
         }
-    } 
+    }
 }
