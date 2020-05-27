@@ -267,6 +267,7 @@ Deque는 stack과 queue를 모두 이용하도록 합친 형태다.
 / [Java](dynamic_programming/카드_게임.java)
 - Level 4 / [도둑질](https://programmers.co.kr/learn/courses/30/lessons/42897)
 / [Python3](dynamic_programming/도둑질.py)
+/ [Java](dynamic_programming/도둑질.java)
 - Level 4 / [서울에서 경산까지](https://programmers.co.kr/learn/courses/30/lessons/42899)
 / [Python3](dynamic_programming/서울에서%20경산까지.py)
 
