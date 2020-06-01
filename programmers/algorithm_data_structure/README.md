@@ -270,6 +270,7 @@ Deque는 stack과 queue를 모두 이용하도록 합친 형태다.
 / [Java](dynamic_programming/도둑질.java)
 - Level 4 / [서울에서 경산까지](https://programmers.co.kr/learn/courses/30/lessons/42899)
 / [Python3](dynamic_programming/서울에서%20경산까지.py)
+/ [Java](dynamic_programming/서울에서_경산까지.java)
 
 
 ## 깊이/너비 우선 탐색(DFS/BFS)
@@ -301,6 +302,7 @@ Deque는 stack과 queue를 모두 이용하도록 합친 형태다.
 ### 문제 풀이
 - Level 2 / [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)
 / [Python3](dfs_bfs/타겟%20넘버.py)
+/ [Java](dfs_bfs/타겟_넘버.java)
 - Level 3 / [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)
 / [Python3](dfs_bfs/네트워크.py)
 - Level 3 / [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163)
