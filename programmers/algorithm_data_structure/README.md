@@ -326,8 +326,10 @@ Deque는 stack과 queue를 모두 이용하도록 합친 형태다.
 ### 문제 풀이
 - Level 3 / [예산](https://programmers.co.kr/learn/courses/30/lessons/43237)
 / [Python3](binary_search/예산.py)
+/ [Java](binary_search/예산.java)
 - Level 3 / [입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238)
 / [Python3](binary_search/입국심사.py)
+/ [Java](binary_search/입국심사.java)
 - Level 4 / [징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236)
 / [Python3](binary_search/징검다리.py)
 
