@@ -315,10 +315,18 @@ Deque는 stack과 queue를 모두 이용하도록 합친 형태다.
 
 
 ## 이분 탐색(Binary Search)
-- `정렬`이 된 리스트에서 `O(logn)` 속도로 원하는 값을 찾는 방법
+- 정렬이 된 리스트에서 `O(logn)` 속도로 원하는 값을 찾는 방법
 - start, middle, end를 두고 `middle = (start+end)//2` 로 설정한다.
 - middle 값이 목표값보다 클 경우 `start = middle +1`, 작으면 `end = middle -1` 로 설정한다.
 - `start > end` 될 때까지 반복하면 원하는 값을 찾는다.
+
+### 노하우
+- 이분탐색으로 찾는 middle 값은 자연수 범위처럼 -1, +1로 순차적인 간격을 조정하며,
+  middle로 계산한 값도 middle이 크면 커지고, 작으면 작아진다.
+- mdddle로 계산한 값과 비교할 고정값이 있어야 이분탐색 방향을 정한다.
+- middle은 보통 무언가들의 최소 기준점, 경계값이 되어 특정 값을 계산한다.
+    - 입국심사에서 총 검사시간과 가능한 같아지도록 각 심사위원이 다룬 인원 수 계산
+    - 징검다리에서 간격의 최솟값보다 같거나 크지만 가장 가깝게 되도록 인접한 간격들 더함
 
 ### 참고
 - https://wootool.tistory.com/62
@@ -332,6 +340,7 @@ Deque는 stack과 queue를 모두 이용하도록 합친 형태다.
 / [Java](binary_search/입국심사.java)
 - Level 4 / [징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236)
 / [Python3](binary_search/징검다리.py)
+/ [Java](binary_search/징검다리.java)
 
 
 ## 그래프(Graph)
