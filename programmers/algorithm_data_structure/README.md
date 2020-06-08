@@ -365,6 +365,7 @@ Deque는 stack과 queue를 모두 이용하도록 합친 형태다.
 ### 문제 풀이
 - Level 3 / [가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)
 / [Python3](graph/가장%20먼%20노드.py)
+/ [Java](graph/가장_먼_노드.java)
 - Level 3 / [순위](https://programmers.co.kr/learn/courses/30/lessons/49191)
 / [Python3](graph/순위.py)
 - Level 4 / [사이클 제거](https://programmers.co.kr/learn/courses/30/lessons/49188)
