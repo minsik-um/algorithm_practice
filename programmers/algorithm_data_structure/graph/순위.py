@@ -63,7 +63,6 @@ def best_solution(n, results):
         fight[lose - 1][0].add(win - 1)
         fight[lose - 1][2] += 1
 
-    print(fight)
     for i, (win, lose, cnt) in enumerate(fight):
         # (i+1) 플레이어를 이긴 선수들
         for w in win:
@@ -74,13 +73,5 @@ def best_solution(n, results):
         for l in lose:
             fight[l][0].update(win)   # 간접적으로 진 선수들을 추가
             fight[l][2] = len(fight[l][1]) + len(fight[l][0])
-        print(fight[3] , fight[5])
 
     return len(list(filter(lambda x: x[2] == n-1, fight)))
-
-
-results = [[1, 2], [2, 3], [3, 4], [5, 6], [6, 7], [7, 8], [4, 5]]
-n = 8
-
-print(my_solution(n, results))
-print(best_solution(n, results))
