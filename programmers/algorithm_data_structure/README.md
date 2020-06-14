@@ -439,3 +439,24 @@ for k from 1 to |V|
 
 ## A*(a-star) 알고리즘
 (추가 예정)
+
+## 그외 문제
+### 일반 문제
+- Level 1 / [같은 숫자는 싫어](https://programmers.co.kr/learn/courses/30/lessons/12906)
+/ [java](etc/normal/같은_숫자는_싫어.java)
+- Level 1 / [시저 암호](https://programmers.co.kr/learn/courses/30/lessons/12926)
+/ [java](etc/normal/시저_암호.java)
+
+### kakao code 예선 2017
+- Level 3 / [보행자 천국](https://programmers.co.kr/learn/courses/30/lessons/1832)
+/ [java](etc/kakao_code_pre_2017/보행자_천국.java)
+
+### KAKAO BLIND RECRUITMENT 2018
+- Level 3 / [[1차] 추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)
+/ [java](etc/kakao_blind_recruitment_2018/추석_트래픽.java)
+
+### summer/winder coding 2019
+- Level 3 / [종이접기](https://programmers.co.kr/learn/courses/30/lessons/62049)
+/ [java](etc/summer_winter_coding_2019/종이접기.java)
+
+
