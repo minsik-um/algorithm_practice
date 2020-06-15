@@ -446,17 +446,27 @@ for k from 1 to |V|
 / [java](etc/normal/같은_숫자는_싫어.java)
 - Level 1 / [시저 암호](https://programmers.co.kr/learn/courses/30/lessons/12926)
 / [java](etc/normal/시저_암호.java)
+- Level 3 / [2 x n 타일링](https://programmers.co.kr/learn/courses/30/lessons/12900)
+/ [java](etc/normal/two_x_n_타일링.java)
 
 ### kakao code 예선 2017
 - Level 3 / [보행자 천국](https://programmers.co.kr/learn/courses/30/lessons/1832)
 / [java](etc/kakao_code_pre_2017/보행자_천국.java)
 
-### KAKAO BLIND RECRUITMENT 2018
+### kakao blind recruitment 2018
 - Level 3 / [[1차] 추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)
 / [java](etc/kakao_blind_recruitment_2018/추석_트래픽.java)
 
 ### summer/winder coding 2019
 - Level 3 / [종이접기](https://programmers.co.kr/learn/courses/30/lessons/62049)
 / [java](etc/summer_winter_coding_2019/종이접기.java)
+
+### kakao winder internship 2019
+- Level 1 / [크레인_인형뽑기_게임](https://programmers.co.kr/learn/courses/30/lessons/64061)
+/ [java](etc/kakao_winter_internship_2019/카카오_인형뽑기_게임.java)
+
+### kakao blind recruitment 2020
+- Level 3 / [기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/60061)
+/ [java](etc/kakao_blind_recruitment_2020/기둥과_보_설치.java)
 
 
