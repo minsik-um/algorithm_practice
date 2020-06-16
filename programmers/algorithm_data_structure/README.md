@@ -448,6 +448,8 @@ for k from 1 to |V|
 / [java](etc/normal/시저_암호.java)
 - Level 3 / [2 x n 타일링](https://programmers.co.kr/learn/courses/30/lessons/12900)
 / [java](etc/normal/two_x_n_타일링.java)
+- Level 3 / [가장 긴 팰린드롭](https://programmers.co.kr/learn/courses/30/lessons/12904)
+/ [java](etc/normal/가장_긴_팰린드롭.java)
 
 ### kakao code 예선 2017
 - Level 3 / [보행자 천국](https://programmers.co.kr/learn/courses/30/lessons/1832)
@@ -456,6 +458,8 @@ for k from 1 to |V|
 ### kakao blind recruitment 2018
 - Level 3 / [[1차] 추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)
 / [java](etc/kakao_blind_recruitment_2018/추석_트래픽.java)
+- Level 3 / [[1차] 셔틀버스](https://programmers.co.kr/learn/courses/30/lessons/17678)
+/ [java](etc/kakao_blind_recruitment_2018/셔틀버스.java)
 
 ### summer/winder coding 2019
 - Level 3 / [종이접기](https://programmers.co.kr/learn/courses/30/lessons/62049)
