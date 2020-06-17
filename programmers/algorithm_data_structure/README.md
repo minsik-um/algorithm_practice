@@ -444,8 +444,10 @@ for k from 1 to |V|
 ### 일반 문제
 - Level 1 / [같은 숫자는 싫어](https://programmers.co.kr/learn/courses/30/lessons/12906)
 / [java](etc/normal/같은_숫자는_싫어.java)
-- Level 1 / [시저 암호](https://programmers.co.kr/learn/courses/30/lessons/12926)
+- Level 1 / [시저 암호](https://programmers.co.kr/learn/courses/30/lessons/12926) 
 / [java](etc/normal/시저_암호.java)
+- Level 1 / [핸드폰_번호_가리기](https://programmers.co.kr/learn/courses/30/lessons/12948)
+/ [java](etc/normal/핸드폰_번호_가리기.java)
 - Level 3 / [2 x n 타일링](https://programmers.co.kr/learn/courses/30/lessons/12900)
 / [java](etc/normal/two_x_n_타일링.java)
 - Level 3 / [가장 긴 팰린드롭](https://programmers.co.kr/learn/courses/30/lessons/12904)
