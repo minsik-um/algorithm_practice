@@ -463,6 +463,10 @@ for k from 1 to |V|
 - Level 3 / [[1차] 셔틀버스](https://programmers.co.kr/learn/courses/30/lessons/17678)
 / [java](etc/kakao_blind_recruitment_2018/셔틀버스.java)
 
+### kakao blind recruitment 2019
+- Level 1 / [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)
+/ [java](etc/kakao_blind_recruitment_2019/실패율.java)
+
 ### summer/winder coding 2019
 - Level 3 / [종이접기](https://programmers.co.kr/learn/courses/30/lessons/62049)
 / [java](etc/summer_winter_coding_2019/종이접기.java)
