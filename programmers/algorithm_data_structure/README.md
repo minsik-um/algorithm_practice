@@ -458,6 +458,12 @@ for k from 1 to |V|
 / [java](etc/kakao_code_pre_2017/보행자_천국.java)
 
 ### kakao blind recruitment 2018
+- Level 1 / [[1차] 비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681)
+/ [java](etc/kakao_blind_recruitment_2018/비밀지도.java)
+- Level 1 / [[1차] 다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682) 
+/ [java](etc/kakao_blind_recruitment_2018/다트게임.java)
+- Level 2 / [[3차] 압축](https://programmers.co.kr/learn/courses/30/lessons/17684)
+/ [java](etc/kakao_blind_recruitment_2018/압축.java)
 - Level 3 / [[1차] 추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)
 / [java](etc/kakao_blind_recruitment_2018/추석_트래픽.java)
 - Level 3 / [[1차] 셔틀버스](https://programmers.co.kr/learn/courses/30/lessons/17678)
