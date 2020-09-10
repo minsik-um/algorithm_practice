@@ -442,20 +442,58 @@ for k from 1 to |V|
 
 ## 그외 문제
 ### 일반 문제
+- Level 1 / [2016년](https://programmers.co.kr/learn/courses/30/lessons/12901)
+/ [java](etc/normal/_2016년.java)
+- Level 1 / [가운데 글자 가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903)
+/ [java](etc/normal/가운데_글자_가져오기.java)
 - Level 1 / [같은 숫자는 싫어](https://programmers.co.kr/learn/courses/30/lessons/12906)
 / [java](etc/normal/같은_숫자는_싫어.java)
+- Level 1 / [나누어 떨어지는 숫자 배열](https://programmers.co.kr/learn/courses/30/lessons/12910)
+/ [java](etc/normal/나누어_떨어지는_숫자_배열.java)
+- Level 1 / [두 정수 사이의 합](https://programmers.co.kr/learn/courses/30/lessons/12912)
+/ [java](etc/normal/두_정수_사이의_합.java)
 - Level 1 / [시저 암호](https://programmers.co.kr/learn/courses/30/lessons/12926) 
 / [java](etc/normal/시저_암호.java)
+- Level 1 / [콜라즈 추측](https://programmers.co.kr/learn/courses/30/lessons/12943)
+/ [java](etc/normal/콜라즈_추측.java)
 - Level 1 / [핸드폰_번호_가리기](https://programmers.co.kr/learn/courses/30/lessons/12948)
 / [java](etc/normal/핸드폰_번호_가리기.java)
+- Level 1 / [행렬의 덧셈](https://programmers.co.kr/learn/courses/30/lessons/12950)
+/ [java](etc/normal/행렬의_덧셈.java)
+- Level 1 / [x만큼 간격이 있는 n개의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12954)
+/ [java](etc/normal/x만큼_간격이_있는_n개의_숫자.java)
+- Level 1 / [직사각형 별찍기](https://programmers.co.kr/learn/courses/30/lessons/12969)
+/ [java](etc/normal/직사각형_별찍기.java)
+- Level 2 / [124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899)
+/ [java](etc/normal/_124_나라의_숫자.java)
+- Level 2 / [올바른 괄호](https://programmers.co.kr/learn/courses/30/lessons/12909)
+/ [java](etc/normal/올바른_괄호.java)
+- Level 2 / [다음 큰 숫자](https://programmers.co.kr/learn/courses/30/lessons/12911)
+/ [java](etc/normal/다음_큰_숫자.java)
+- Level 2 / [땅따먹기](https://programmers.co.kr/learn/courses/30/lessons/12913)
+/ [java](etc/normal/땅따먹기.java)
+- Level 2 / [N개의 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12953)
+/ [java](etc/normal/n개의_최소공배수.java)
 - Level 3 / [2 x n 타일링](https://programmers.co.kr/learn/courses/30/lessons/12900)
 / [java](etc/normal/two_x_n_타일링.java)
 - Level 3 / [가장 긴 팰린드롭](https://programmers.co.kr/learn/courses/30/lessons/12904)
 / [java](etc/normal/가장_긴_팰린드롭.java)
 
 ### kakao code 예선 2017
+- Level 2 / [카카오프렌즈 컬러링북](https://programmers.co.kr/learn/courses/30/lessons/1829)
+/ [java](etc/kakao_code_pre_2017/카카오프렌즈_컬러링북.java)
 - Level 3 / [보행자 천국](https://programmers.co.kr/learn/courses/30/lessons/1832)
 / [java](etc/kakao_code_pre_2017/보행자_천국.java)
+
+### kakao code 본선 2017
+- Level 2 / [단체사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835)
+/ [java](etc/kakao_code_final_2017/단체사진_찍기.java)
+
+### 2017 팁스다운
+- Level 2 / [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973)
+/ [java](etc/_2017_tips/짝지어_제거하기.java)
+- Level 2 / [예상 대진표](https://programmers.co.kr/learn/courses/30/lessons/12985)
+/ [java](etc/_2017_tips/예상_대진표.java)
 
 ### kakao blind recruitment 2018
 - Level 1 / [[1차] 비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681)
@@ -464,25 +502,65 @@ for k from 1 to |V|
 / [java](etc/kakao_blind_recruitment_2018/다트게임.java)
 - Level 2 / [[3차] 압축](https://programmers.co.kr/learn/courses/30/lessons/17684)
 / [java](etc/kakao_blind_recruitment_2018/압축.java)
+- Level 2 / [[3차] n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687)
+/ [java](etc/kakao_blind_recruitment_2018/n진수_게임.java)
 - Level 3 / [[1차] 추석 트래픽](https://programmers.co.kr/learn/courses/30/lessons/17676)
 / [java](etc/kakao_blind_recruitment_2018/추석_트래픽.java)
 - Level 3 / [[1차] 셔틀버스](https://programmers.co.kr/learn/courses/30/lessons/17678)
 / [java](etc/kakao_blind_recruitment_2018/셔틀버스.java)
 
+### summer/winder coding 2018
+- Level 1 / [예산](https://programmers.co.kr/learn/courses/30/lessons/12982)
+/ [java](etc/summer_winter_coding_2018/예산.java)
+- Level 2 / [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993)
+/ [java](etc/summer_winter_coding_2018/스킬트리.java)
+- Level 2 / [영어 끝말잇기](https://programmers.co.kr/learn/courses/30/lessons/12981)
+/ [java](etc/summer_winter_coding_2018/영어_끝말잇기.java)
+- Level 3 / [숫자 게임](https://programmers.co.kr/learn/courses/30/lessons/12987)
+/ [java](etc/summer_winter_coding_2018/숫자_게임.java)
+- Level 3 / [기지국 설치](https://programmers.co.kr/learn/courses/30/lessons/12979)
+/ [java](etc/summer_winter_coding_2018/기지국_설치.java)
+
 ### kakao blind recruitment 2019
 - Level 1 / [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)
 / [java](etc/kakao_blind_recruitment_2019/실패율.java)
+- Level 2 / [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890)
+/ [java](etc/kakao_blind_recruitment_2019/후보키.java)
+- Level 3 / [길 찾기 게임](https://programmers.co.kr/learn/courses/30/lessons/42892)
+/ [java](etc/kakao_blind_recruitment_2019/길_찾기_게임.java)
+- Level 3 / [매칭 점수](https://programmers.co.kr/learn/courses/30/lessons/42893)
+/ [java](etc/kakao_blind_recruitment_2019/매칭_점수.java)
 
 ### summer/winder coding 2019
+- Level 2 / [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048)
+/ [java](etc/summer_winter_coding_2019/멀쩡한_사각형.java)
 - Level 3 / [종이접기](https://programmers.co.kr/learn/courses/30/lessons/62049)
 / [java](etc/summer_winter_coding_2019/종이접기.java)
 
 ### kakao winder internship 2019
 - Level 1 / [크레인_인형뽑기_게임](https://programmers.co.kr/learn/courses/30/lessons/64061)
-/ [java](etc/kakao_winter_internship_2019/카카오_인형뽑기_게임.java)
+/ [java](etc/kakao_winter_internship_2019/카카오_인형뽑기_게임.java) 
+- Level 2 / [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065)
+/ [java](etc/kakao_winter_internship_2019/튜플.java) 
+- Level 3 / [징검다리 건너기](https://programmers.co.kr/learn/courses/30/lessons/64062)
+/ [java](etc/kakao_winter_internship_2019/징검다리_건너기.java)
 
 ### kakao blind recruitment 2020
+- Level 2 / [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057)
+/ [java](etc/kakao_blind_recruitment_2020/문자열_압축.java)
+- Level 2 / [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058)
+/ [java](etc/kakao_blind_recruitment_2020/괄호_변환.java)
 - Level 3 / [기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/60061)
 / [java](etc/kakao_blind_recruitment_2020/기둥과_보_설치.java)
 
+### kakao internship 2020
+- Level 1 / [키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256)
+/ [java](etc/kakao_internship_2020/키패드_누르기.java)
+- Level 2 / [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257)
+/ [java](etc/kakao_internship_2020/수식_최대화.java)
+- Level 3 / [보석 쇼핑](https://programmers.co.kr/learn/courses/30/lessons/67258)
+/ [java](etc/kakao_internship_2020/보석_쇼핑.java)
 
+### find_programming_meister
+- Level 2 / [폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845)
+/ [java](etc/find_programming_meister/폰켓몬.java)
