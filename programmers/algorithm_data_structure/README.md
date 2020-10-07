@@ -466,6 +466,8 @@ for k from 1 to |V|
 / [java](etc/normal/직사각형_별찍기.java)
 - Level 2 / [124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899)
 / [java](etc/normal/_124_나라의_숫자.java)
+- Level 2 / [가장 큰 정사각형 찾기](https://programmers.co.kr/learn/courses/30/lessons/12905)
+/ [java](etc/normal/가장_큰_정사각형_찾기.java)
 - Level 2 / [올바른 괄호](https://programmers.co.kr/learn/courses/30/lessons/12909)
 / [java](etc/normal/올바른_괄호.java)
 - Level 2 / [다음 큰 숫자](https://programmers.co.kr/learn/courses/30/lessons/12911)
@@ -564,3 +566,7 @@ for k from 1 to |V|
 ### find_programming_meister
 - Level 2 / [폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845)
 / [java](etc/find_programming_meister/폰켓몬.java)
+
+### 월간 코드 챌린지 시즌 1
+- Level 3 / [풍선 터트리기](https://programmers.co.kr/learn/courses/30/lessons/68646)
+/ [java](etc/code_challenge_season_1/풍선_터트리기.java)
