@@ -552,6 +552,8 @@ for k from 1 to |V|
 / [java](etc/kakao_blind_recruitment_2020/문자열_압축.java)
 - Level 2 / [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058)
 / [java](etc/kakao_blind_recruitment_2020/괄호_변환.java)
+- Level 3 / [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059)
+/ [java](etc/kakao_blind_recruitment_2020/자물쇠와_열쇠.java)
 - Level 3 / [기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/60061)
 / [java](etc/kakao_blind_recruitment_2020/기둥과_보_설치.java)
 
