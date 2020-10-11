@@ -570,5 +570,8 @@ for k from 1 to |V|
 / [java](etc/find_programming_meister/폰켓몬.java)
 
 ### 월간 코드 챌린지 시즌 1
+- Level 2 / [삼각 달팽이](https://programmers.co.kr/learn/courses/30/lessons/68645)
+/ [java](etc/code_challenge_season_1/삼각_달팽이.java)
 - Level 3 / [풍선 터트리기](https://programmers.co.kr/learn/courses/30/lessons/68646)
 / [java](etc/code_challenge_season_1/풍선_터트리기.java)
+
